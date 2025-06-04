@@ -1,11 +1,13 @@
 body {
 	font-family: sans-serif;
 	font-size: 20px;
-	background: #222;
-	color: #ddd;
+	background: url('background.jpg');
+	background-size: cover;
+	color: #222;
 	margin: 0 auto;
 	padding: 0;
 	max-width: 1100px;
+	min-height: 100vh;
 }
 
 a {
@@ -15,14 +17,25 @@ a {
 }
 
 header {
-	background-color: #333;
 	overflow: hidden;
 }
+	header #logo {
+		margin: 2em 0;
+		text-align: center;
+	}
+		header #logo > img {
+			max-width: 100%;
+		}
 	header nav {
-		margin-top: 1em;
+		margin: 1em auto;
+		background-color: #fff;
+		border-radius: 3px;
+		box-shadow: 0px 5px 20px #00000091;
+		max-width: calc(min(900px, 100vw - 20px));
 	}
 		header nav ul {
 			margin: 0;
+			padding: 0 20px;
 		}
 			header nav ul li {
 				display: inline-block;
@@ -30,35 +43,56 @@ header {
 			}
 				header nav ul li a {
 					display: inline-block;
-					padding: 8px;
+					color: #666;
+					padding: 16px;
 				}
 					header nav ul li.active {
-						background: #444;
-						color: #fff;
+						background: linear-gradient(182deg, #b8db74, #b2c967 8px, #7ca535, #000000 140px);
+						text-shadow: 1px 1px 2px #000;
 					}
+						header nav ul li.active a,
+						header nav ul li.active a:hover {
+							color: #fff;
+							background: transparent;
+						}
 					header nav ul li a:hover {
-						background: #555;
-						color: #fff;
+						background: #ccc;
+						color: #000;
 					}
 
 article {
-	padding: 1em;
+	max-width: calc(min(900px, 100vw - 20px));
+	margin: 10px auto;
+	box-sizing: border-box;
+	padding: 20px;
 	background: #444;
 	min-height: 50vh;
+	background: #fff;
+	box-shadow: 0px 5px 20px #00000091;
+	border-radius: 3px;
 }
 	article > h1 {
 		text-align: center;
-		font-size: 180%;
-		text-shadow:
-			1px 1px #000,
-			2px 2px #ef3550,
-			3px 3px #f48fb1,
-			4px 4px #7e57c2,
-			5px 5px #2196f3,
-			6px 6px #26c6da,
-			7px 7px #43a047,
-			8px 8px #eeff41,
-			9px 9px #f9a825,
-			10px 10px #ff5722
-		;
+		font-size: 150%;
+		color: #fff;
+		text-shadow: 1px 1px 2px #000;
+		background: linear-gradient(182deg, #b8db74, #b2c967 8px, #7ca535, #000000 140px);
+		padding: 10px;
+		margin: -20px -20px 0;
+		border-top: 2px solid #fff4;
+		border-left: 1px solid #2224;
+		border-right: 1px solid #2224;
+		border-bottom: 2px solid #2224;
+	}
+		article > h1:first-child {
+			border-radius: 3px 3px 0 0;
+		}
+	article hr {
+		background: #2224;
+		border: 0 none;
+		height: 3px;
+	}
+
+	article img {
+		max-width: 100%;
 	}
