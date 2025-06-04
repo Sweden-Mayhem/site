@@ -1,2 +1,2 @@
 syntax: glob
-output/*.html
+output
