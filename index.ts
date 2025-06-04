@@ -40,14 +40,13 @@ async function clear_site() {
 	if(!stat||!stat.isDirectory) return;
 
 	for await(const entry of Deno.readDir('output')){
-		if(entry.name.match(/\.html$/)){
-			await Deno.remove(`output/${entry.name}`);
-		}
+		await Deno.remove(`output/${entry.name}`);
 	}
 }
 
 async function generate_site() {
 	await clear_site();
+	await copy_assets();
 
 	const pages:{
 		name:string,
@@ -88,6 +87,18 @@ async function generate_site() {
 			currentPage: page,
 			pages: childPages
 		}));
+	}
+}
+
+async function copy_assets() {
+	if(!await get_stat('output')){
+		await Deno.mkdir('output');
+	}
+
+	for await(const entry of Deno.readDir('template')){
+		if(!entry.isFile||!entry.name.match(/\.html$/)){
+			await Deno.copyFile(`template/${entry.name}`, `output/${entry.name}`)
+		}
 	}
 }
 
