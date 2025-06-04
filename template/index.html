@@ -9,9 +9,12 @@
 </head>
 <body>
 	<header>
+		<div id="logo">
+			<img src="logo.png" alt="Sweden Mayhem - Let The Mayhem Begin!" />
+		</div>
 		<nav>
 			<ul>
-				<li class="active"><a href="index">Index</a></li>
+				<li class="active"><a href="index">Welcome</a></li>
 <% for(const page of pages){ %>
 				<li><a href="<%= page.name %>"><%= page.title %></a></li>
 <% } %>
