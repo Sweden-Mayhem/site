@@ -13,7 +13,7 @@
 			<ul>
 				<li><a href="index">Index</a></li>
 <% for(const page of pages){ %>
-				<li><a href="<%= page.name %>"><%= page.title %></a></li>
+				<li <%~ currentPage.name==page.name?'class="active"':'' %>><a href="<%= page.name %>"><%= page.title %></a></li>
 <% } %>
 			</ul>
 		</nav>
