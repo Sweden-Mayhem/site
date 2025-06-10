@@ -28,7 +28,7 @@ function escape_html(x:string) {
 
 async function get_stat(path:string) {
 	try{
-		const stat = await Deno.stat('output');
+		const stat = await Deno.stat(path);
 		return stat;
 	}catch(error){
 		return false;
