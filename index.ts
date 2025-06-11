@@ -62,7 +62,13 @@ async function generate_site() {
 			title:string
 		}[] = [];
 
+		const entries:Deno.DirEntry[] = [];
 		for await(const entry of Deno.readDir(readPath)){
+			entries.push(entry);
+		}
+		entries.sort((x, y) => x.name.localeCompare(y.name));
+
+		for(const entry of entries){
 			if(entry.isDirectory){
 				const nestedPages = await walk_dir(`${readPath}/${entry.name}`, `${writePath}/${entry.name}`, `${templatePath}/${entry.name}`);
 				if(nestedPages.some(x => x.name=='index')){
