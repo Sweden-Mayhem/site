@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" />
+	<title><%= currentPage.title %></title>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			<a href="/"><img src="logo.png" alt="Sweden Mayhem - Let The Mayhem Begin!" /></a>
+		</div>
+		<nav>
+			<ul>
+				<li class="active"><a href="index">Welcome</a></li>
+<% for(const page of pages){ %>
+				<li><a href="<%= page.name %>"><%= page.title %></a></li>
+<% } %>
+<% for(const section of sections){ %>
+				<li><a href="<%= section.name %>/"><%= section.title %></a></li>
+<% } %>
+			</ul>
+		</nav>
+	</header>
+
+	<article>
+<%~ currentPage.html %>
+	</article>
+</body>
+</html>

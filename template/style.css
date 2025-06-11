@@ -1,0 +1,97 @@
+body {
+	font-family: sans-serif;
+	font-size: 20px;
+	background-image: linear-gradient( 69.2deg,  rgba(77,143,251,1) 35.3%, rgba(202,51,255,1) 100.3% );
+	color: #222;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1100px;
+	min-height: 100vh;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #adf;
+}
+
+header {
+	overflow: hidden;
+}
+	header #logo {
+		margin: 2em 0;
+		text-align: center;
+	}
+		header #logo > img {
+			max-width: 100%;
+		}
+	header nav {
+		margin: 1em auto;
+		background-color: #fff;
+		border-radius: 3px;
+		box-shadow: 0px 5px 20px #00000091;
+		max-width: calc(min(900px, 100vw - 20px));
+	}
+		header nav ul {
+			margin: 0;
+			padding: 0 20px;
+		}
+			header nav ul li {
+				display: inline-block;
+				margin: 0;
+			}
+				header nav ul li a {
+					display: inline-block;
+					color: #666;
+					padding: 16px;
+				}
+					header nav ul li.active {
+						background: linear-gradient(182deg, #b8db74, #b2c967 8px, #7ca535, #000000 140px);
+						text-shadow: 1px 1px 2px #000;
+					}
+						header nav ul li.active a,
+						header nav ul li.active a:hover {
+							color: #fff;
+							background: transparent;
+						}
+					header nav ul li a:hover {
+						background: #ccc;
+						color: #000;
+					}
+
+article {
+	max-width: calc(min(900px, 100vw - 20px));
+	margin: 10px auto;
+	box-sizing: border-box;
+	padding: 20px;
+	background: #444;
+	min-height: 50vh;
+	background: #fff;
+	box-shadow: 0px 5px 20px #00000091;
+	border-radius: 3px;
+}
+	article > h1 {
+		text-align: center;
+		font-size: 150%;
+		color: #fff;
+		text-shadow: 1px 1px 2px #000;
+		background: linear-gradient(182deg, #b8db74, #b2c967 8px, #7ca535, #000000 140px);
+		padding: 10px;
+		margin: -20px -20px 0;
+		border-top: 2px solid #fff4;
+		border-left: 1px solid #2224;
+		border-right: 1px solid #2224;
+		border-bottom: 2px solid #2224;
+	}
+		article > h1:first-child {
+			border-radius: 3px 3px 0 0;
+		}
+	article hr {
+		background: #2224;
+		border: 0 none;
+		height: 3px;
+	}
+
+	article img {
+		max-width: 100%;
+	}
