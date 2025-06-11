@@ -4,7 +4,10 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css" />
+<% if(pages.length>0) { /* redirect to the last/newest news page */ %>
+	<meta http-equiv="refresh" content="0; url=<%= pages[pages.length-1].name %>" />
+<% } %>
+	<link rel="stylesheet" href="../style.css" />
 	<title><%= currentPage.title %></title>
 </head>
 <body>
@@ -14,19 +17,14 @@
 		</div>
 		<nav>
 			<ul>
-				<li class="active"><a href="index">Welcome</a></li>
-<% for(const page of pages){ %>
-				<li><a href="<%= page.name %>"><%= page.title %></a></li>
-<% } %>
-<% for(const section of sections){ %>
-				<li><a href="<%= section.name %>/"><%= section.title %></a></li>
-<% } %>
+				<li><a href="../">Back to Minecraft</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<article>
-<%~ currentPage.html %>
+		<h1>News</h1>
+		<p>There is no news</p>
 	</article>
 </body>
 </html>
