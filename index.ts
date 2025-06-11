@@ -40,7 +40,7 @@ async function clear_site() {
 	if(!stat||!stat.isDirectory) return;
 
 	for await(const entry of Deno.readDir('output')){
-		await Deno.remove(`output/${entry.name}`);
+		await Deno.remove(`output/${entry.name}`, { recursive: true });
 	}
 }
 
@@ -48,46 +48,69 @@ async function generate_site() {
 	await clear_site();
 	await copy_assets();
 
-	const pages:{
-		name:string,
-		title:string,
-		filename:string,
-		markdown:string,
-		html:string
-	}[] = [];
+	async function walk_dir(readPath:string, writePath:string, templatePath:string) {
+		const pages:{
+			name:string,
+			title:string,
+			filename:string,
+			markdown:string,
+			html:string
+		}[] = [];
 
-	for await(const entry of Deno.readDir('content')){
-		if(!entry.isFile) continue;
+		const childSections:{
+			name:string,
+			title:string
+		}[] = [];
 
-		if(entry.name.match(/\.md$/i)){
-			const name = entry.name.replace(/\..*/, '');
-			const title = get_pretty_filename_title(name);
-			const markdown = await Deno.readTextFile(`content/${entry.name}`);
-			const html = await marked.parse(markdown, {
-				breaks:true
-			});
-			pages.push({
-				name,
-				title,
-				filename: entry.name,
-				markdown,
-				html
-			});
+		for await(const entry of Deno.readDir(readPath)){
+			if(entry.isDirectory){
+				const nestedPages = await walk_dir(`${readPath}/${entry.name}`, `${writePath}/${entry.name}`, `${templatePath}/${entry.name}`);
+				if(nestedPages.some(x => x.name=='index')){
+					childSections.push({
+						name: entry.name,
+						title: get_pretty_filename_title(entry.name)
+					});
+				}
+				continue;
+			}
+
+			if(!entry.isFile) continue;
+
+			if(entry.name.match(/\.md$/i)){
+				const name = entry.name.replace(/\..*/, '');
+				const title = get_pretty_filename_title(name);
+				const markdown = await Deno.readTextFile(`${readPath}/${entry.name}`);
+				const html = await marked.parse(markdown, {
+					breaks:true
+				});
+				pages.push({
+					name,
+					title,
+					filename: entry.name,
+					markdown,
+					html
+				});
+			}
 		}
+
+		const childPages = pages.filter(page => page.name!='index');
+
+		if(!await get_stat(writePath)){
+			await Deno.mkdir(writePath);
+		}
+
+		for(const page of pages){
+			await Deno.writeTextFile(`${writePath}/${page.name}.html`, eta.render(`${templatePath}/${page.name=='index'?'index.html':'page.html'}`, {
+				currentPage: page,
+				pages: childPages,
+				sections: childSections,
+			}));
+		}
+
+		return pages;
 	}
 
-	const childPages = pages.filter(page => page.name!='index');
-
-	if(!await get_stat('output')){
-		await Deno.mkdir('output');
-	}
-
-	for(const page of pages){
-		await Deno.writeTextFile(`./output/${page.name}.html`, eta.render(page.name=='index'?'./index.html':'./page.html', {
-			currentPage: page,
-			pages: childPages
-		}));
-	}
+	await walk_dir('content', 'output', '.');
 }
 
 async function copy_assets() {
@@ -95,11 +118,24 @@ async function copy_assets() {
 		await Deno.mkdir('output');
 	}
 
-	for await(const entry of Deno.readDir('template')){
-		if(!entry.isFile||!entry.name.match(/\.html$/)){
-			await Deno.copyFile(`template/${entry.name}`, `output/${entry.name}`)
+	async function copy_dir(readPath:string, writePath:string) {
+		for await(const entry of Deno.readDir(readPath)){
+			if(entry.isDirectory){
+				copy_dir(`${readPath}/${entry.name}`, `${writePath}/${entry.name}`);
+
+			}else if(entry.isFile){
+				if(entry.name.match(/\.html$/)) continue; // skip template files
+
+				if(!await get_stat(writePath)){
+					await Deno.mkdir(writePath);
+				}
+
+				await Deno.copyFile(`${readPath}/${entry.name}`, `${writePath}/${entry.name}`);
+			}
 		}
 	}
+
+	await copy_dir('template', 'output');
 }
 
 if(Deno.args.length<1){
