@@ -100,7 +100,14 @@ async function generate_site() {
 		}
 
 		for(const page of pages){
-			await Deno.writeTextFile(`${writePath}/${page.name}.html`, eta.render(`${templatePath}/${page.name=='index'?'index.html':'page.html'}`, {
+			let templateFilename = `${templatePath}/${page.name=='index'?'index.html':'page.html'}`;
+
+			// fall back to the default toplevel template if the one for this section is not found
+			if(!await get_stat(`template/${templateFilename}`)){
+				templateFilename = `./${page.name=='index'?'index.html':'page.html'}`;
+			}
+
+			await Deno.writeTextFile(`${writePath}/${page.name}.html`, eta.render(templateFilename, {
 				currentPage: page,
 				pages: childPages,
 				sections: childSections,
