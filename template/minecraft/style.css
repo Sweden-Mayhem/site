@@ -23,7 +23,7 @@ header {
 		margin: 2em 0;
 		text-align: center;
 	}
-		header #logo > img {
+		header #logo img {
 			max-width: 100%;
 		}
 	header nav {
