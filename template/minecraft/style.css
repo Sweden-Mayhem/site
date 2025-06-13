@@ -63,7 +63,7 @@ header {
 	display: flex;
 	gap: 20px;
 	max-width: calc(min(900px, 100vw - 20px));
-	margin: 0 auto 10px;
+	margin: 10px auto;
 	justify-content: center;
 }
 	.with-aside > article {
