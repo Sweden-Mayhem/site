@@ -14,8 +14,13 @@
 		</div>
 		<nav>
 			<ul>
-				<li><a href="../">Back to Minecraft</a></li>
-				<li class="active"><a href="#">News</a></li>
+				<li><a href="index">Welcome</a></li>
+<% for(const page of parentSection.contentPages){ %>
+				<li <%~ page.name=='news'?'class="active"':'' %>><a href="<%= page.name %>"><%= page.title %></a></li>
+<% } %>
+<% for(const section of parentSection.sections){ %>
+				<li <%~ section.name=='news'?'class="active"':'' %>><a href="<%= section.name %>/"><%= section.title %></a></li>
+<% } %>
 			</ul>
 		</nav>
 	</header>
