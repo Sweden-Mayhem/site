@@ -155,6 +155,7 @@ async function generate_site() {
 			await Deno.writeTextFile(`${section.outputPath}/${page.outputFilename}`, eta.render(`../${page.templateFilename}`, {
 				currentPage: page,
 				currentSection: section,
+				parentSection: section.parent,
 				pages: section.contentPages,
 				sections: section.sections
 			}));
