@@ -93,6 +93,14 @@ header {
 					color: #666;
 					padding: 16px;
 				}
+					.with-aside > aside ul li:first-child {
+						border-top-left-radius: 3px;
+						border-top-right-radius: 3px;
+					}
+					.with-aside > aside ul li:last-child {
+						border-bottom-left-radius: 3px;
+						border-bottom-right-radius: 3px;
+					}
 					.with-aside > aside ul li.active {
 						background: linear-gradient(182deg, #b8db74, #b2c967 8px, #7ca535, #000000 140px);
 						text-shadow: 1px 1px 2px #000;
