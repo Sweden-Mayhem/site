@@ -17,12 +17,12 @@
 		</div>
 		<nav>
 			<ul>
-				<li><a href="index">Welcome</a></li>
+				<li><a href="../">Welcome</a></li>
 <% for(const page of parentSection.contentPages){ %>
-				<li><a href="<%= page.name %>"><%= page.title %></a></li>
+				<li><a href="../<%= page.name %>"><%= page.title %></a></li>
 <% } %>
 <% for(const section of parentSection.sections){ %>
-				<li <%~ section.name=='news'?'class="active"':'' %>><a href="<%= section.name %>/"><%= section.title %></a></li>
+				<li <%~ section.name=='news'?'class="active"':'' %>><a href="../<%= section.name %>/"><%= section.title %></a></li>
 <% } %>
 			</ul>
 		</nav>
