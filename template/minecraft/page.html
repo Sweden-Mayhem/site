@@ -18,7 +18,7 @@
 <% for(const page of pages){ %>
 				<li <%~ currentPage.name==page.name?'class="active"':'' %>><a href="<%= page.name %>"><%= page.title %></a></li>
 <% } %>
-<% for(const section of sections){ %>
+<% for(const section of sections) if(section.hasIndex) { %>
 				<li><a href="<%= section.name %>/"><%= section.title %></a></li>
 <% } %>
 			</ul>
