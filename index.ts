@@ -44,23 +44,38 @@ async function clear_site() {
 	}
 }
 
-async function generate_site() {
-	await clear_site();
-	await copy_assets();
+type ParsedPage = {
+	name:string,
+	title:string,
+	markdown:string,
+	html:string,
+	contentFilename:string,
+	outputFilename:string,
+	templateFilename:string
+};
 
-	async function walk_dir(readPath:string, writePath:string, templatePath:string) {
-		const pages:{
-			name:string,
-			title:string,
-			filename:string,
-			markdown:string,
-			html:string
-		}[] = [];
+type ParsedSection = {
+	parent?:ParsedSection,
+	outputPath:string,
+	name: string,
+	title: string,
+	hasIndex: boolean,
+	pages: ParsedPage[],
+	contentPages: ParsedPage[],
+	sections: ParsedSection[]
+}
 
-		const childSections:{
-			name:string,
-			title:string
-		}[] = [];
+async function parse_site() {
+	async function walk_dir(name:string, title:string, readPath:string, writePath:string, templatePath:string):Promise<ParsedSection> {
+		const section:ParsedSection = {
+			name,
+			title,
+			hasIndex: false,
+			outputPath: writePath,
+			pages: [],
+			contentPages: [],
+			sections: []
+		};
 
 		const entries:Deno.DirEntry[] = [];
 		for await(const entry of Deno.readDir(readPath)){
@@ -70,13 +85,11 @@ async function generate_site() {
 
 		for(const entry of entries){
 			if(entry.isDirectory){
-				const nestedPages = await walk_dir(`${readPath}/${entry.name}`, `${writePath}/${entry.name}`, `${templatePath}/${entry.name}`);
-				if(nestedPages.some(x => x.name=='index')){
-					childSections.push({
-						name: entry.name,
-						title: get_pretty_filename_title(entry.name)
-					});
-				}
+				const name = entry.name;
+				const title = get_pretty_filename_title(name);
+				const newSection = await walk_dir(name, title, `${readPath}/${entry.name}`, `${writePath}/${entry.name}`, `${templatePath}/${entry.name}`);
+				newSection.parent = section;
+				section.sections.push(newSection);
 				continue;
 			}
 
@@ -84,46 +97,75 @@ async function generate_site() {
 
 			if(entry.name.match(/\.md$/i)){
 				const name = entry.name.replace(/\..*/, '');
+				const filename = `${readPath}/${entry.name}`;
+				const output = `${name}.html`;
+				const isIndex = name=='index';
+				if(isIndex){
+					section.hasIndex = true;
+				}
 				const title = get_pretty_filename_title(name);
+				let templateFilename = `${templatePath}/${isIndex?'index.html':'page.html'}`;
+
 				const markdown = await Deno.readTextFile(`${readPath}/${entry.name}`);
 				const html = await marked.parse(markdown, {
 					breaks:true
 				});
-				pages.push({
+
+				// fall back to the default toplevel template if the one for this section is not found
+				if(!await get_stat(templateFilename)){
+					templateFilename = `template/${isIndex?'index.html':'page.html'}`;
+				}
+
+				const parsedPage:ParsedPage = {
 					name,
 					title,
-					filename: entry.name,
 					markdown,
-					html
-				});
+					html,
+					contentFilename: filename,
+					outputFilename: output,
+					templateFilename
+				}
+
+				section.pages.push(parsedPage);
+
+				if(!isIndex){
+					section.contentPages.push(parsedPage);
+				}
 			}
 		}
 
-		const childPages = pages.filter(page => page.name!='index');
+		return section;
+	}
 
-		if(!await get_stat(writePath)){
-			await Deno.mkdir(writePath);
+	return await walk_dir('/', 'Home', 'content', 'output', 'template');
+}
+
+async function generate_site() {
+	await clear_site();
+	await copy_assets();
+
+	const parsed = await parse_site();
+
+	async function generate_section(section:ParsedSection) {
+		if(!await get_stat(section.outputPath)){
+			await Deno.mkdir(section.outputPath);
 		}
 
-		for(const page of pages){
-			let templateFilename = `${templatePath}/${page.name=='index'?'index.html':'page.html'}`;
-
-			// fall back to the default toplevel template if the one for this section is not found
-			if(!await get_stat(`template/${templateFilename}`)){
-				templateFilename = `./${page.name=='index'?'index.html':'page.html'}`;
-			}
-
-			await Deno.writeTextFile(`${writePath}/${page.name}.html`, eta.render(templateFilename, {
+		for(const page of section.pages){
+			await Deno.writeTextFile(`${section.outputPath}/${page.outputFilename}`, eta.render(`../${page.templateFilename}`, {
 				currentPage: page,
-				pages: childPages,
-				sections: childSections,
+				currentSection: section,
+				pages: section.contentPages,
+				sections: section.sections
 			}));
 		}
 
-		return pages;
+		for(const childSection of section.sections){
+			await generate_section(childSection);
+		}
 	}
 
-	await walk_dir('content', 'output', '.');
+	await generate_section(parsed);
 }
 
 async function copy_assets() {
