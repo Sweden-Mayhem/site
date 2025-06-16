@@ -6,8 +6,7 @@ A unique Minecraft server, split between two worlds: **Sanctuary** and **The Aby
 
 Once a perfect world, free from pain, hunger, or need.
 But with no limits, its people took everything.
-Now, every ore, fish, tree, and blade of grass is gone.
-**Sanctuary** stands empty, lifeless, silent.
+Now, **Sanctuary** lies barren, lifeless, silent, a dead world of dust and ruin.
 
 Its people, now called **Wanderers**, drift through dust and ruin, stripped of meaning.
 
