@@ -15,10 +15,9 @@
 
 ## Steps to Join
 
-1. Launch Minecraft Java Edition.
+1. Launch [Minecraft Java Edition](https://www.minecraft.net/en-us/store/minecraft-java-bedrock-edition-pc).
 2. Click **Multiplayer**.
 3. Click **Add Server**.
 4. Set the **Server Name** to `Sweden Mayhem`.
 5. Set the **Server Address** to `minecraft.swedenmayhem.se`.
 6. Click **Done**, then select the server and click **Join Server**.
-
