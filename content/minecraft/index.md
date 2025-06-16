@@ -1,30 +1,39 @@
 # Sweden Mayhem
 
-<center>A unique survival server split between two deeply connected worlds.</center>
+A unique Minecraft server, split between two worlds: **Sanctuary** and **The Abyss**.
 
 ## Sanctuary
 
-Once a perfect world — no hunger, no pain, no scarcity. But abundance led to ruin. Its people, now called **Wanderers**, harvested everything until nothing remained.
-No trees. No ores. No animals. No life.
-Only ruins and mystery.
+Once a perfect world, free from pain, hunger, or need.
+But with no limits, its people took everything.
 
-You are one of these Wanderers.
+Now, every ore, fish, tree, and blade of grass is gone.
+**Sanctuary** stands empty, lifeless, silent.
 
-Now, a strange force stirs at the heart of Sanctuary, a place that connects to other worlds.
+Its people, now called **Wanderers**, drift through dust and ruin, stripped of meaning.
+
+But something stirs at the heart of **Sanctuary**.
+A gate flickers. A path opens.
 
 ## The Abyss
 
-One such world is **The Abyss**.
-A brutal, ever-shifting dimension of darkness, starvation, and danger.
-It resets weekly. It never forgives. But it holds the one thing Sanctuary lacks: *life*.
+A world of eternal darkness, hunger, and chaos.
+It punishes the weak and tests the strong.
+Its form shifts weekly. Its dangers grow.
+
+Yet it holds the one thing **Sanctuary** lost long ago: *life itself*.
 
 ## Your Path
 
-Enter The Abyss to gather what Sanctuary has lost.
-Return. Build. Trade. Uncover secrets. Restore meaning.
+You now stand before the gate, Wanderer.
 
-You are not alone. Other Wanderers gather. A new community is forming.
-And the heart watches.
+Enter **The Abyss**. Take back what was lost.
+Return. Build. Trade. Discover. Restore.
+
+Fear not, Wanderer, for you are not alone.
+
+Other Wanderers gather. A new purpose awakens.
+The heart watches.
 
 [Enter the world »](/minecraft/play)
 
