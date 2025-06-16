@@ -8,9 +8,9 @@ Once a perfect world, free from pain, hunger, or need.
 But with no limits, its people took everything.
 Now, **Sanctuary** lies barren, lifeless, silent, a dead world of dust and ruin.
 
-Its people, now called **Wanderers**, drift through dust and ruin, stripped of meaning.
+Its people, now called Wanderers, drift through dust and ruin, stripped of meaning.
 
-But something stirs at the heart of **Sanctuary**.
+But something stirs at the heart of **Sanctuary**...
 A gate flickers. A path opens.
 
 ## The Abyss
@@ -19,17 +19,17 @@ A world of eternal darkness, hunger, and chaos.
 It punishes the weak and tests the strong.
 Its form shifts weekly. Its dangers grow.
 
-Yet it holds the one thing **Sanctuary** lost long ago: *life itself*.
+Yet it holds the one thing **Sanctuary** desperately needs: **life**.
 
 ## Your Path
 
 You now stand before the gate, Wanderer.
 
-Enter **The Abyss**. Take back what was lost.
+Enter **The Abyss**. Take back what **Sanctuary** lost long ago.
 Return. Build. Trade. Discover. Restore.
 
-Fear not, Wanderer, for you are not alone.
+But fear not, for you are not alone.
 Other Wanderers gather. A new purpose awakens.
-The heart watches.
+The heart watches...
 
 [Enter the world »](/minecraft/play)
