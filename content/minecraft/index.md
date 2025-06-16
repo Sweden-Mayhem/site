@@ -6,7 +6,6 @@ A unique Minecraft server, split between two worlds: **Sanctuary** and **The Aby
 
 Once a perfect world, free from pain, hunger, or need.
 But with no limits, its people took everything.
-
 Now, every ore, fish, tree, and blade of grass is gone.
 **Sanctuary** stands empty, lifeless, silent.
 
@@ -31,9 +30,7 @@ Enter **The Abyss**. Take back what was lost.
 Return. Build. Trade. Discover. Restore.
 
 Fear not, Wanderer, for you are not alone.
-
 Other Wanderers gather. A new purpose awakens.
 The heart watches.
 
 [Enter the world »](/minecraft/play)
-
