@@ -2,13 +2,13 @@
 
 ## Server Address
 
-* **Server Name**: Sweden Mayhem
+* **Server Name**: `Sweden Mayhem`
 * **Server Address**: `minecraft.swedenmayhem.se`
 * **Port**: `25565`
 
 ## Requirements
 
-- Minecraft Java Edition $MC_VERSION
+- Minecraft Java Edition 1.21.5
 - Enable **Server Resource Packs**
 
 ---
