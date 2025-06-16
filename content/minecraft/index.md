@@ -1,6 +1,6 @@
 # Sweden Mayhem
 
-A unique survival server split between two deeply connected worlds.
+<center>A unique survival server split between two deeply connected worlds.</center>
 
 ## Sanctuary
 
