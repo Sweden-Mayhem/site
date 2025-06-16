@@ -19,14 +19,14 @@ A world of eternal darkness, hunger, and chaos.
 It punishes the weak and tests the strong.
 Its form shifts weekly. Its dangers grow.
 
-Yet it holds the one thing **Sanctuary** desperately needs: **life**.
+Yet it holds the one thing **Sanctuary** desperately needs: *life*.
 
 ## Your Path
 
 You now stand before the gate, Wanderer.
 
 Enter **The Abyss**. Take back what **Sanctuary** lost long ago.
-Return. Build. Trade. Discover. Restore.
+Build. Trade. Discover. Restore. Awaken.
 
 But fear not, for you are not alone.
 Other Wanderers gather. A new purpose awakens.
