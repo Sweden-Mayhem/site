@@ -1,4 +1,4 @@
-# How to Join Sweden Mayhem
+# How to Join
 
 ## Server Address
 
@@ -8,7 +8,7 @@
 
 ## Requirements
 
-- Minecraft Java Edition 1.21.5
+- Minecraft **Java Edition** version **1.21.5**
 - Enable **Server Resource Packs**
 
 ---
