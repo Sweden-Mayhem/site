@@ -151,3 +151,16 @@ article {
 	article img {
 		max-width: 100%;
 	}
+
+	article a {
+		padding: 4px 6px;
+		color: #000;
+		background: linear-gradient(182deg, #b8db74, #b2c967 8px, #7ca535, #000000 140px);
+		border-radius: 3px;
+		font-style: italic;
+		text-decoration-thickness: 1px;
+	}
+		article a:hover {
+			text-decoration: underline;
+			text-decoration-thickness: 1px;
+		}
