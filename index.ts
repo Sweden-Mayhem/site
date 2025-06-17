@@ -47,11 +47,18 @@ async function clear_site() {
 type ParsedPage = {
 	name:string,
 	title:string,
+
 	markdown:string,
 	html:string,
+	markdownSummary:string,
+	htmlSummary:string,
+
 	contentFilename:string,
 	outputFilename:string,
-	templateFilename:string
+	templateFilename:string,
+
+	previousPage?:ParsedPage,
+	nextPage?:ParsedPage,
 };
 
 type ParsedSection = {
@@ -111,6 +118,19 @@ async function parse_site() {
 					breaks:true
 				});
 
+				const maxSummaryLength = 128;
+				const maxSummaryLines = 3;
+				const markdownLines = markdown.split('\n');
+				let markdownSummary = markdownLines.slice(0, maxSummaryLines).join('\n');
+				if(markdownSummary.length>maxSummaryLength){
+					markdownSummary = markdownSummary.substring(0, maxSummaryLength-1)+'…';
+				}else if(markdownLines.length>maxSummaryLines){
+					markdownSummary += '…';
+				}
+				const htmlSummary = await marked.parse(markdownSummary, {
+					breaks:true
+				});
+
 				// fall back to the default toplevel template if the one for this section is not found
 				if(!await get_stat(templateFilename)){
 					templateFilename = `template/${isIndex?'index.html':'page.html'}`;
@@ -121,9 +141,22 @@ async function parse_site() {
 					title,
 					markdown,
 					html,
+					markdownSummary,
+					htmlSummary,
 					contentFilename: filename,
 					outputFilename: output,
 					templateFilename
+				}
+
+				let previousPage =
+					section.pages.length>0&&section.pages[section.pages.length-1].name!='index'?section.pages[section.pages.length-1]:
+					section.pages.length>1?section.pages[section.pages.length-22]:
+					undefined
+				;
+
+				if(previousPage&&!isIndex){
+					previousPage.nextPage = parsedPage;
+					parsedPage.previousPage = previousPage;
 				}
 
 				section.pages.push(parsedPage);
