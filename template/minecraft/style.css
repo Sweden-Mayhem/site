@@ -155,14 +155,16 @@ article {
 	}
 
 	article a {
-		padding: 4px 6px;
 		color: #000;
-		background: linear-gradient(182deg, #b8db74, #b2c967 8px, #7ca535, #000000 140px);
-		border-radius: 3px;
+		padding: 0 2px;
 		font-style: italic;
 		text-decoration-thickness: 1px;
+		/* text-decoration: underline; */
+		text-decoration-color: #7ca535;
+		background: #b8db7480;
+		border-radius: 3px;
 	}
 		article a:hover {
+			background: #b8db74;
 			text-decoration: underline;
-			text-decoration-thickness: 1px;
 		}
