@@ -32,4 +32,6 @@ But fear not, for you are not alone.
 Other Wanderers gather. A new purpose awakens.
 The heart watches...
 
-[Enter the world »](/minecraft/play)
+[About the gameplay »](/minecraft/gameplay)
+
+[Play now »](/minecraft/play)
