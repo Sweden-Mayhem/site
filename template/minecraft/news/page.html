@@ -25,18 +25,19 @@
 		</nav>
 	</header>
 
-	<div class="with-aside">
-		<article>
+	<article>
 <%~ currentPage.html %>
-		</article>
+	</article>
 
-		<aside>
-			<ul>
-<% for(const page of [...pages].reverse()){ %>
-				<li <%~ currentPage.name==page.name?'class="active"':'' %>><a href="<%= page.name %>"><%= page.title.replace(/\b([0-9]{4}) ([0-9]{2}) ([0-9]{2})\b/, '$1-$2-$3') %></a></li>
+	<div class="pagination">
+		<a class="button" href="./">Back to all news</a>
+		<div class="spacer"></div>
+<% if(currentPage.previousPage){ %>
+		<a class="button" href="<%= currentPage.previousPage.name %>">Previous: <%= currentPage.previousPage.name %></a>
 <% } %>
-			</ul>
-		</aside>
+<% if(currentPage.nextPage){ %>
+		<a class="button" href="<%= currentPage.nextPage.name %>">Next: <%= currentPage.nextPage.name %></a>
+<% } %>
 	</div>
 </body>
 </html>
