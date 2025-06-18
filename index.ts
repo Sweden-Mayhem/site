@@ -44,6 +44,16 @@ async function clear_site() {
 	}
 }
 
+async function markdown_to_html(text:string) {
+	text = text.replace(/^(#+ (?:.*))\n((?! |#+ |- |\* |\d+[.)] ).+)\n/gm, '$1\n<p class="subheading">$2</p>\n');
+
+	const html = await marked.parse(text, {
+		breaks:true
+	});
+
+	return html;
+}
+
 type ParsedPage = {
 	name:string,
 	title:string,
@@ -114,9 +124,7 @@ async function parse_site() {
 				let templateFilename = `${templatePath}/${isIndex?'index.html':'page.html'}`;
 
 				const markdown = await Deno.readTextFile(`${readPath}/${entry.name}`);
-				const html = await marked.parse(markdown, {
-					breaks:true
-				});
+				const html = await markdown_to_html(markdown);
 
 				const maxSummaryLength = 128;
 				const maxSummaryLines = 3;
@@ -127,9 +135,7 @@ async function parse_site() {
 				}else if(markdownLines.length>maxSummaryLines){
 					markdownSummary += '…';
 				}
-				const htmlSummary = await marked.parse(markdownSummary, {
-					breaks:true
-				});
+				const htmlSummary = await markdown_to_html(markdownSummary);
 
 				// fall back to the default toplevel template if the one for this section is not found
 				if(!await get_stat(templateFilename)){
