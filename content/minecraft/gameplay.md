@@ -69,5 +69,4 @@ Trade with the **Abyss Trader** to obtain a **Whisperleaf**.
 With it in your possession, the elusive **Claimwright** may finally acknowledge your presence.
 If he speaks, it means you've done well for **Sanctuary**, and he will grant you additional claim blocks in return.
 
-You can use your new blocks to stretch your current home, or to stake out new ground elsewhere.
-Perhaps for a second base, or a more visible shop?
+You can use your new blocks to stretch your current home, or to stake out new ground elsewhere. Perhaps for a second base, or a more visible shop?
