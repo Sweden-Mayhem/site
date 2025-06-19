@@ -61,7 +61,7 @@ As long as you keep it stocked and maintained, your **Vessel** will do the work 
 
 With your home built and wealth secured, it's time to expand your influence in **Sanctuary**.
 
-While you can manage your land with a **Golden Shovel**, increasing the size of your claim requires more claim blocks.
+While you can manage your land with a [**Golden Shovel**](https://minecraft.wiki/w/Golden_Shovel), increasing the size of your claim requires more claim blocks.
 These are not handed out freely.
 
 Trade with the **Abyss Trader** to obtain a **Whisper Leaf**.
