@@ -43,7 +43,7 @@ Since **The Abyss** has no villagers, **Sanctuary's** systems are your only reli
 
 ## Bind the Bones
 
-The villagers in Sanctuary are a fine start, but eventually, you'll want to sell your items to other players, or request rare items! To do that, you'll need a **Bone Vessel**.
+The villagers in **Sanctuary** are a fine start, but eventually, you'll want to sell your items to other players, or request rare items! To do that, you'll need a **Bone Vessel**.
 A merchant that speaks on your behalf, even when you're off-line or lost in **The Abyss**.
 
 To gain one, speak to the **Abyss Trader** and obtain a **Letter to the Soil**.
@@ -64,9 +64,9 @@ With your home built and wealth secured, it's time to expand your influence in *
 
 While you can manage your land with a [**Golden Shovel**](https://minecraft.wiki/w/Golden_Shovel), increasing the size of your claim requires more claim blocks. These are not handed out freely.
 
-Trade with the **Abyss Trader** to obtain a **Whisper Leaf**.
-With it in your possession, the elusive **Claimwright** will acknowledge you when he next appears.
-
-He speaks to few, but if he does, he will grant you additional blocks to expand your land.
+Trade with the **Abyss Trader** to obtain a **Whisperleaf**.
+With it in your possession, the elusive **Claimwright** may finally take notice when he next appears.
+He speaks only to those he deems worthy, and your **Whisperleaf** might just be proof enough.
+Should he judge you fit, he will grant you additional claim blocks to expand your land.
 
 You can use your new blocks to stretch your current home, or to stake out new ground elsewhere. Perhaps for a second base, or a more visible shop?
