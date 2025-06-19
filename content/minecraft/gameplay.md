@@ -25,14 +25,14 @@ Your first milestone should therefore be to craft a [**Flint and Steel**](https:
 To reduce wear and fuel more prayers, craft more [**Candles**](https://minecraft.wiki/w/Candle) and stack them together.
 Lighting one stacked candle lights them all, granting more uses per flint!
 
-Candles also store experience, protecting it from death in **The Abyss**, and more candles let you store more experience.
+Candles also store experience, protecting it from death in **The Abyss**.
+More candles let you store more experience.
 
 ---
 
 ## Voice of the Heart
 
-**Sanctuary's Heart** holds four unstable dimensional rifts, each with unique events, schedules, and NPCs.
-Some appear regularly; others are rare and unpredictable...
+**Sanctuary's Heart** holds four unstable dimensional rifts, each with unique events, schedules, and NPCs. Some appear regularly; others are rare and unpredictable...
 
 Most buildings, NPCs, and events revolve around **Emeralds**, either earning them or spending them.
 Key visitors like the **Society Voices** offer **Edicts**. Complete them to earn **Favor**, which leads to rewards from the **Reliquary**, containing **Emeralds** and other useful items.
@@ -43,8 +43,8 @@ Since **The Abyss** has no villagers, **Sanctuary's** systems are your only reli
 
 ## Bind the Bones
 
-The villagers in Sanctuary are a fine start, but eventually, you'll want to sell your items to other players, or request rare items!
-To do that, you'll need a **Bone Vessel**. A merchant that speaks on your behalf, even when you're off-line or lost in **The Abyss**.
+The villagers in Sanctuary are a fine start, but eventually, you'll want to sell your items to other players, or request rare items! To do that, you'll need a **Bone Vessel**.
+A merchant that speaks on your behalf, even when you're off-line or lost in **The Abyss**.
 
 To gain one, speak to the **Abyss Trader** and obtain a **Letter to the Soil**.
 With it in your inventory, the **Gravecarver** will take notice the next time he appears.
@@ -60,7 +60,7 @@ As long as you keep it stocked and maintained, your **Vessel** will do the work 
 
 ## Grow Your Claim
 
-With your home built and wealth secured, it's time to expand your influence in **Sanctuary**.
+With your home built and wealth secured, it's time to expand your influence in **Sanctuary**!
 
 While you can manage your land with a [**Golden Shovel**](https://minecraft.wiki/w/Golden_Shovel), increasing the size of your claim requires more claim blocks.
 These are not handed out freely.
@@ -70,4 +70,5 @@ With it in your possession, the elusive **Claimwright** will acknowledge you whe
 
 He speaks to few, but if he does, he will grant you additional blocks to expand your land.
 
-You can use your new blocks to stretch your current home, or to stake out new ground elsewhere — perhaps for a second base, or a more visible shop?
+You can use your new blocks to stretch your current home, or to stake out new ground elsewhere.
+Perhaps for a second base, or a more visible shop?
