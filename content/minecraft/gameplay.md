@@ -1,7 +1,8 @@
 # Gameplay
 
 You begin your journey in **Sanctuary**.
-A world stripped of resources. No ores, no trees, no animals, no grass. Even enemies refuse to spawn.
+A world stripped of resources. No ores, no trees, no animals, no grass.
+Even enemies refuse to spawn.
 Crops and saplings grow painfully slow, making farming an unreliable option.
 This is not the place to survive — it's the place to *build*.
 
@@ -17,7 +18,7 @@ Here you mine, fight, loot, and die, then return to **Sanctuary** to store your 
 
 Food is scarce in **Sanctuary**.
 Aside from the daily **Alms** from the **Reliquary** (and the occasional stolen food), you must rely on your **Praying Candle** to restore hunger and health.
-Each prayer extinguishes a flame, and relighting it costs **Flint and Steel** durability.
+Each prayer extinguishes a flame, and relighting it costs [**Flint and Steel**](https://minecraft.wiki/w/Flint_and_Steel) durability.
 
 Your first milestone should therefore be to craft a [**Flint and Steel**](https://minecraft.wiki/w/Flint_and_Steel).
 
