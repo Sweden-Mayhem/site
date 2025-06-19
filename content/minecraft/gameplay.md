@@ -69,5 +69,4 @@ With it in your possession, the elusive **Claimwright** will acknowledge you whe
 
 He speaks to few, but if he does, he will grant you additional blocks to expand your land.
 
-You can use your new blocks to stretch your current home, or to stake out new ground elsewhere.
-Perhaps for a second base, or a more visible shop?
+You can use your new blocks to stretch your current home, or to stake out new ground elsewhere. Perhaps for a second base, or a more visible shop?
