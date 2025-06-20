@@ -103,11 +103,10 @@ Then:
 The four central locations in **Sanctuary** rotate through different events, NPCs, and structures.
 Most are active between **08:00 - 23:00** Swedish time, though some minor occurrences happen outside those hours.
 
-Each structure includes at least one container (often hidden) that may contain loot, refreshed at random intervals.
-Anyone can take these items, so check them frequently.
+Each structure includes at least one container (often hidden) that may contain loot, refreshed at random intervals. Anyone can take these items, so check them frequently!
 
 Right-click any NPC to interact.
-Some may only respond if you hold the correct item.
+Some may only respond with the correct item in your inventory.
 
 ## Edicts
 
@@ -125,15 +124,15 @@ Each offers unique **Edicts** that reward **Favor** upon completion.
 3. Left-click to accept
 
 You can only have one active Edict at a time.
-Each lasts up to **10 hours**.
+Each lasts up to **10 hours**, and there is no penalty for failing **Edict**.
 
 ### Renouncing an Edict:
 
 1. Right-click the same **Society Voice**
-2. Right-click your active Edict (it will shimmer)
+2. Right-click your active **Edict** (it will shimmer)
 3. Left-click “Release Binding” (green button)
 
-There's no penalty for failing or renouncing an Edict.
+There's no penalty for renouncing an Edict.
 
 Earn enough **Favor**, and the **Reliquary** will reward you.
 
@@ -141,8 +140,8 @@ Earn enough **Favor**, and the **Reliquary** will reward you.
 
 The **Reliquary** is present daily between **09:00 and 23:00**.
 
-His main role is to track your **Favor** and reward you when you've earned enough.
-Rewards (called **Society Rewards**) include useful items and **Emeralds**.
+His main role is reward you with **Society Rewards** when you have earned enough **Favor**.
+**Society Rewards** include useful items and **Emeralds**.
 
 He also hands out a free daily **Alms** (usually food), and will restore a portion of your hunger and health if low.
 Be sure to visit him at the start of your day!
