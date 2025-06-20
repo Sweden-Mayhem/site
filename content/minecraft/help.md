@@ -82,14 +82,14 @@ To resize a claim, equip your [**Golden Shovel**](https://minecraft.wiki/w/Golde
 	- **Inside** the current area to shrink
 	- **Outside** the current area to expand
 
-You'll need available claim blocks to expand, and you cannot shrink below 5x5 blocks.
+You'll need available claim blocks to expand, and you cannot shrink below 80 blocks, or a width of 5 blocks.
 
 ## Creating a New Claim
 
 To create a new claim area:
 
 - You must have at least 80 claim blocks available
-- The claim must be at least 5x5 blocks in size
+- The claim must be at least 80 blocks and at least 5 blocks wide
 
 Then:
 
