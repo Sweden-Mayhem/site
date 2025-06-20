@@ -95,8 +95,8 @@ Then:
 
 1. Use a [**Stick**](https://minecraft.wiki/w/Stick) to locate unclaimed land
 2. Equip your [**Golden Shovel**](https://minecraft.wiki/w/Golden_Shovel)
-3. Right-click one corner
-4. Right-click the opposite corner to define the area
+3. Right-click an unclaimed block
+4. Right-click the opposite corner diagonally to create the claim
 
 # Sanctuary's Heart
 
