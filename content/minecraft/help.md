@@ -115,7 +115,8 @@ Every day, two **Society Voices** visit **Sanctuary**:
 - First arrives at **09:00**, leaves at **17:00**
 - Second arrives at **15:00**, leaves at **22:00**
 
-Each offers unique **Edicts** that reward **Favor** upon completion.
+Each **Society Voice** offer unique **Edicts** that reward **Favor** upon completion.
+Earn enough **Favor**, and you will be rewarded with a **Society Reward**.
 
 ### Accepting an Edict:
 
@@ -133,8 +134,6 @@ Each lasts up to **10 hours**, and there is no penalty for failing **Edict**.
 3. Left-click “Release Binding” (green button)
 
 There's no penalty for renouncing an Edict.
-
-Earn enough **Favor**, and the **Reliquary** will reward you.
 
 ## The Reliquary
 
