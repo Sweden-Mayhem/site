@@ -5,14 +5,14 @@ For a step-by-step guide on how to connect to the server, please see our [Play �
 # Praying
 
 Praying offers a number of beneficial effects.
-Not only does it let you store your currently held experience, it can also restore health and hunger, and — with enough alignment — grant powerful boons.
+Not only does it let you store your currently held experience, it can also restore health and hunger, and grant powerful boons.
 Praying is only available in **Sanctuary**.
 
 ## The Praying Menu
 
 You can open the praying menu by right-clicking any lit [**Candle**](https://minecraft.wiki/w/Candle) you have access to in **Sanctuary**.
 Any action you take in the menu will consume one flame from the candle.
-You can stack multiple candles to increase the number of available flames — lighting one lights the whole stack.
+You can stack multiple candles to increase the number of available flames, and lighting one lights the whole stack.
 
 ## Experience
 
@@ -21,18 +21,18 @@ However, the amount you can store depends on how many candles are stacked togeth
 
 ## Alignment and Boons
 
-At certain structures within **Sanctuary's Heart**, you can use the  command to align yourself with either **Good** or **Bad**.
+At certain structures within **Sanctuary's Heart**, you can use the `/pray` command to align yourself with either **Good** or **Bad**.
 A strong enough alignment unlocks powerful boons in the praying menu, offering temporary buffs especially useful in **The Abyss**.
 
 # Claims
 
 A **Claim** is a player-owned area in **Sanctuary**, where your items and builds are safe from other players.
-There is currently no limit to the number of claims you can own, and you can freely remove, resize, or expand them — as long as you have enough claim blocks.
+There is currently no limit to the number of claims you can own, and you can freely remove, resize, or expand them, as long as you have enough claim blocks.
 
 Placing your first chest in **Sanctuary** will automatically create a small protected area.
 
-Use  to view your current claims and remaining claim blocks.
-To abandon a claim, stand inside it and use .
+Use `/claimslist` to view your current claims and remaining claim blocks.
+To abandon a claim, stand inside it and use `/abandonclaim`.
 
 ## Visualizing Claims
 
@@ -53,13 +53,13 @@ To hide the outlines early, right-click any unclaimed block.
 You can allow other players to access or build in your claim.
 While standing inside your claim, use:
 
--  — Lists players with permissions
--  — Full build/edit/container access (be careful!)
--  — Access to chests, furnaces, etc.
--  — Access to doors, buttons, beds
--  — Allows the player to grant others access
--  — Remove permissions from a player
--  — Remove all permissions from everyone
+- `/trustlist` — Lists players with permissions
+- `/trust <player>` — Full build/edit/container access (be careful!)
+- `/containertrust <player>` — Access to chests, furnaces, etc.
+- `/accesstrust <player>` — Access to doors, buttons, beds
+- `/permissiontrust <player>` — Allows the player to grant others access
+- `/untrust <player>` — Remove permissions from a player
+- `/untrust all` — Remove all permissions from everyone
 
 ## Subdividing Claims
 
@@ -68,9 +68,9 @@ For example, you can allow visitors to build in one area, while keeping the rest
 
 Equip your [**Golden Shovel**](https://minecraft.wiki/w/Golden_Shovel), stand inside your claim, and:
 
--  — Enables subdivision mode
--  — Disables subdivision mode
--  — Prevents a subclaim from inheriting permissions from its parent
+- `/subdivideclaims` — Enables subdivision mode
+- `/basicclaims` — Disables subdivision mode
+- `/restrictsubclaim` — Prevents a subclaim from inheriting permissions from its parent
 
 ## Resizing Claims
 
@@ -101,9 +101,9 @@ Then:
 # Sanctuary's Heart
 
 The four central locations in **Sanctuary** rotate through different events, NPCs, and structures.
-Most are active between **08:00–23:00** Swedish time, though some minor occurrences happen outside those hours.
+Most are active between **08:00 - 23:00** Swedish time, though some minor occurrences happen outside those hours.
 
-Each structure includes at least one container — often hidden — that may contain loot, refreshed at random intervals.
+Each structure includes at least one container (often hidden) that may contain loot, refreshed at random intervals.
 Anyone can take these items, so check them frequently.
 
 Right-click any NPC to interact.
@@ -116,7 +116,7 @@ Every day, two **Society Voices** visit **Sanctuary**:
 - First arrives at **09:00**, leaves at **17:00**
 - Second arrives at **15:00**, leaves at **22:00**
 
-Each offers unique **Edicts** — optional challenges that reward **Favor** upon completion.
+Each offers unique **Edicts** that reward **Favor** upon completion.
 
 ### Accepting an Edict:
 
@@ -144,5 +144,5 @@ The **Reliquary** is present daily between **09:00 and 23:00**.
 His main role is to track your **Favor** and reward you when you've earned enough.
 Rewards (called **Society Rewards**) include useful items and **Emeralds**.
 
-He also hands out a free **daily Alms** — usually food — and will restore a portion of your hunger and health.
+He also hands out a free daily **Alms** (usually food), and will restore a portion of your hunger and health if low.
 Be sure to visit him at the start of your day!
