@@ -20,7 +20,7 @@ Praying allows you to deposit and withdraw experience as **Divine Experience**.
 There is no penalty for depositing or withdrawing experience.
 However, the amount of **Divine Experience** you can store depends on how many candles are stacked together.
 
-The current limits are:
+The current **Divine Experience** limits are:
 
 - **1 Candle**: 500
 - **2 Candles**: 2500
@@ -31,14 +31,14 @@ The current limits are:
 
 At certain structures within **Sanctuary's Heart**, you can use the `/pray` command to align yourself with either **Good** or **Bad**.
 There is a time limit of **30 minutes** between prayers, and the alignment depends on the structure you pray at.
-A strong enough alignment unlocks powerful boons in the praying menu, offering temporary buffs especially useful in **The Abyss**.
+A strong enough alignment unlocks powerful boons in the praying menu, offering strong temporary buffs.
 
 # Claims
 
 A **Claim** is a player-owned area in **Sanctuary**, where items and blocks are safe from other players.
-There is currently no limit to the number of claims you can own, and you can freely remove, resize, or expand them, as long as you have enough claim blocks.
+There is currently no limit to the number of claims you can own, and you can freely remove, resize, or expand any claim, as long as you have enough claim blocks.
 
-Placing your first chest in **Sanctuary** will automatically create a small protected area.
+Placing your first chest in **Sanctuary** will automatically create a small claim area.
 
 Use `/claimslist` to view your current claims and remaining claim blocks.
 To abandon a claim, stand inside it and use `/abandonclaim`.
