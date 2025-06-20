@@ -2,8 +2,6 @@
 
 For a step-by-step guide on how to connect to the server, please see our [Play »](minecraft/play) page.
 
----
-
 # Praying
 
 Praying offers a number of beneficial effects.
@@ -25,8 +23,6 @@ However, the amount you can store depends on how many candles are stacked togeth
 
 At certain structures within **Sanctuary's Heart**, you can use the  command to align yourself with either **Good** or **Bad**.
 A strong enough alignment unlocks powerful boons in the praying menu, offering temporary buffs especially useful in **The Abyss**.
-
----
 
 # Claims
 
@@ -101,8 +97,6 @@ Then:
 2. Equip your [**Golden Shovel**](https://minecraft.wiki/w/Golden_Shovel)
 3. Right-click one corner
 4. Right-click the opposite corner to define the area
-
----
 
 # Sanctuary's Heart
 
