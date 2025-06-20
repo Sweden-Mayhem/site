@@ -4,7 +4,7 @@ For a step-by-step guide on how to connect to the server, please see our [Play �
 
 # Praying
 
-Praying offers a number of beneficial effects.
+Praying offers a number of beneficial effects 
 Not only does it let you store your currently held experience, it can also restore health and hunger, and grant powerful boons.
 Praying is only available in **Sanctuary**.
 
@@ -16,17 +16,26 @@ You can stack multiple candles to increase the number of available flames, and l
 
 ## Experience
 
-Praying allows you to store and retrieve your experience without penalty.
-However, the amount you can store depends on how many candles are stacked together.
+Praying allows you to deposit and withdraw experience as **Divine Experience**.
+There is no penalty for depositing or withdrawing experience.
+However, the amount of **Divine Experience** you can store depends on how many candles are stacked together.
+
+The current limits are:
+
+- **1 Candle**: 500
+- **2 Candles**: 2500
+- **3 Candles**: 7000
+- **4 Candles**: 15000
 
 ## Alignment and Boons
 
 At certain structures within **Sanctuary's Heart**, you can use the `/pray` command to align yourself with either **Good** or **Bad**.
+There is a time limit of **30 minutes** between prayers, and the alignment depends on the structure you pray at.
 A strong enough alignment unlocks powerful boons in the praying menu, offering temporary buffs especially useful in **The Abyss**.
 
 # Claims
 
-A **Claim** is a player-owned area in **Sanctuary**, where your items and builds are safe from other players.
+A **Claim** is a player-owned area in **Sanctuary**, where items and blocks are safe from other players.
 There is currently no limit to the number of claims you can own, and you can freely remove, resize, or expand them, as long as you have enough claim blocks.
 
 Placing your first chest in **Sanctuary** will automatically create a small protected area.
@@ -36,22 +45,22 @@ To abandon a claim, stand inside it and use `/abandonclaim`.
 
 ## Visualizing Claims
 
-Equip a [**Stick**](https://minecraft.wiki/w/Stick) to view claim boundaries.
-
-- **Gold** outlines indicate player-owned claims
-- **Red** outlines indicate protected areas you cannot modify
-
-There are two ways to visualize claims:
+There are two ways to visualize claim boundaries.
+While standing inside your claim, equip a [**Stick**](https://minecraft.wiki/w/Stick), then:
 
 - **Single Claim**: Right-click a claimed block with a Stick
 - **Nearby Claims**: While crouching, right-click any block
 
-To hide the outlines early, right-click any unclaimed block.
+- **Gold** outlines indicate player-owned claims
+- **Red** outlines indicate protected areas you cannot modify
+
+The boundaries will automatically hide after a while.
+To hide the outlines early, right-click any unclaimed block with your [**Stick**](https://minecraft.wiki/w/Stick).
 
 ## Trust and Permissions
 
 You can allow other players to access or build in your claim.
-While standing inside your claim, use:
+While standing inside your claim, use one of the following commands:
 
 - `/trustlist` — Lists players with permissions
 - `/trust <player>` — Full build/edit/container access (be careful!)
@@ -74,15 +83,16 @@ Equip your [**Golden Shovel**](https://minecraft.wiki/w/Golden_Shovel), stand in
 
 ## Resizing Claims
 
-To resize a claim, equip your [**Golden Shovel**](https://minecraft.wiki/w/Golden_Shovel):
+You are free to resize your claims at any time.
+Reducing the size will return any claim blocks used in the removed area, while expanding will require additional claim blocks.
+You cannot shrink a clime to below 80 blocks, or a width of 5 blocks.
 
-1. Stand inside the claim
-2. Right-click one of the glowing corner markers
-3. Right-click again to set the new size:
+While standing inside your claim, equip your [**Golden Shovel**](https://minecraft.wiki/w/Golden_Shovel), then:
+
+1. Right-click one of the glowing gold corner markers
+2. Right-click again to set the new size:
 	- **Inside** the current area to shrink
 	- **Outside** the current area to expand
-
-You'll need available claim blocks to expand, and you cannot shrink below 80 blocks, or a width of 5 blocks.
 
 ## Creating a New Claim
 
