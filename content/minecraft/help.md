@@ -1,6 +1,6 @@
 # Help
 
-For a step-by-step guide on how to connect to the server, please see our [Play »](minecraft/play) page.
+For a step-by-step guide on how to connect to the server, please see our [Play »](/minecraft/play) page.
 
 # Praying
 
