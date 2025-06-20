@@ -10,9 +10,12 @@ Praying is only available in **Sanctuary**.
 
 ## The Praying Menu
 
-You can open the praying menu by right-clicking any lit [**Candle**](https://minecraft.wiki/w/Candle) you have access to in **Sanctuary**.
+You can open the praying menu by right-clicking any lit [Candle](https://minecraft.wiki/w/Candle) you have access to in **Sanctuary**.
+
 Any action you take in the menu will consume one flame from the candle.
 You can stack multiple candles to increase the number of available flames, and lighting one lights the whole stack.
+
+Candles are usually lit with a [Flint and Steel](https://minecraft.wiki/w/Flint_and_Steel).
 
 ## Experience
 
@@ -31,7 +34,9 @@ The current **Divine Experience** limits are:
 
 At certain structures within **Sanctuary's Heart**, you can use the `/pray` command to align yourself with either **Good** or **Bad**.
 There is a time limit of **30 minutes** between prayers, and the alignment depends on the structure you pray at.
+
 A strong enough alignment unlocks powerful boons in the praying menu, offering strong temporary buffs.
+Your alignment is reset to **Neutral** after a boon has been applied.
 
 # Claims
 
@@ -41,21 +46,23 @@ There is currently no limit to the number of claims you can own, and you can fre
 Placing your first chest in **Sanctuary** will automatically create a small claim area.
 
 Use `/claimslist` to view your current claims and remaining claim blocks.
-To abandon a claim, stand inside it and use `/abandonclaim`.
+To abandon a claim, stand inside it and use `/abandonclaim` or `/abandonallclaims` to remove all your claims.
 
 ## Visualizing Claims
 
 There are two ways to visualize claim boundaries.
-While standing inside your claim, equip a [**Stick**](https://minecraft.wiki/w/Stick), then:
+First, equip a [Stick](https://minecraft.wiki/w/Stick), then:
 
-- **Single Claim**: Right-click a claimed block with a Stick
-- **Nearby Claims**: While crouching, right-click any block
+- Right-click any claimed block to visualize the claim boundaries
+- While crouching, right-click any block to visualize all nearby claims
 
-- **Gold** outlines indicate player-owned claims
-- **Red** outlines indicate protected areas you cannot modify
+There are two types of claim boundaries:
+
+- **Gold** indicate player-owned claims
+- **Red** indicate protected areas you cannot modify or claim
 
 The boundaries will automatically hide after a while.
-To hide the outlines early, right-click any unclaimed block with your [**Stick**](https://minecraft.wiki/w/Stick).
+To hide the boundaries early, right-click any unclaimed block with your [Stick](https://minecraft.wiki/w/Stick).
 
 ## Trust and Permissions
 
@@ -75,19 +82,19 @@ While standing inside your claim, use one of the following commands:
 You can split a claim into smaller **subclaims**, each with their own permission settings.
 For example, you can allow visitors to build in one area, while keeping the rest private.
 
-Equip your [**Golden Shovel**](https://minecraft.wiki/w/Golden_Shovel), stand inside your claim, and:
+While standing inside your claim, equip a [Golden Shovel](https://minecraft.wiki/w/Golden_Shovel), then:
 
-- `/subdivideclaims` — Enables subdivision mode
-- `/basicclaims` — Disables subdivision mode
+- `/subdivideclaims` — Enables subdivision mode for your shovel
+- `/basicclaims` — Returns your shovel to normal mode
 - `/restrictsubclaim` — Prevents a subclaim from inheriting permissions from its parent
 
 ## Resizing Claims
 
 You are free to resize your claims at any time.
 Reducing the size will return any claim blocks used in the removed area, while expanding will require additional claim blocks.
-You cannot shrink a clime to below 80 blocks, or a width of 5 blocks.
+You cannot shrink a claim to below 80 blocks, or a width less than 5 blocks.
 
-While standing inside your claim, equip your [**Golden Shovel**](https://minecraft.wiki/w/Golden_Shovel), then:
+While standing inside your claim, equip your [Golden Shovel](https://minecraft.wiki/w/Golden_Shovel), then:
 
 1. Right-click one of the glowing gold corner markers
 2. Right-click again to set the new size:
@@ -103,8 +110,8 @@ To create a new claim area:
 
 Then:
 
-1. Use a [**Stick**](https://minecraft.wiki/w/Stick) to locate unclaimed land
-2. Equip your [**Golden Shovel**](https://minecraft.wiki/w/Golden_Shovel)
+1. Use a [Stick](https://minecraft.wiki/w/Stick) to locate unclaimed land
+2. Equip your [Golden Shovel](https://minecraft.wiki/w/Golden_Shovel)
 3. Right-click an unclaimed block
 4. Right-click the opposite corner diagonally to create the claim
 
