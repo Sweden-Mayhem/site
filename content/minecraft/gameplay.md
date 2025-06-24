@@ -19,9 +19,9 @@ Food is scarce in **Sanctuary**.
 Aside from the daily **Alms** from the **Reliquary** (and the occasional stolen food item), you must rely on your **Praying Candle** to restore hunger and health.
 
 But because each prayer extinguishes a flame, you must find a reliable way to relight your candle.
-Your first milestone should therefore be to craft a [**Flint and Steel**](https://minecraft.wiki/w/Flint_and_Steel).
+Your first milestone should therefore be to craft a [Flint and Steel](https://minecraft.wiki/w/Flint_and_Steel).
 
-To reduce wear and fuel more prayers, gather more [**Candles**](https://minecraft.wiki/w/Candle) and stack them together.
+To reduce wear and fuel more prayers, gather more [Candles](https://minecraft.wiki/w/Candle) and stack them together.
 Lighting one stacked candle lights them all, granting more uses per flint!
 
 Praying also lets you store your experience, protecting it from death in **The Abyss**.
@@ -53,7 +53,7 @@ He does not care for small talk, but he will reanimate a trader's remains and bi
 
 Your **Vessel** must be placed beside a newly placed container. That container becomes the shop's inventory — holding both what's for sale and what other players sell back.
 
-If you want the **Vessel** to buy something you don't yet have, just rename a piece of [**Paper**](https://minecraft.wiki/w/Paper) in an [**Anvil**](https://minecraft.wiki/w/Anvil) with the name of the item you're requesting.
+If you want the **Vessel** to buy something you don't yet have, just rename a piece of [Paper](https://minecraft.wiki/w/Paper) in an [Anvil](https://minecraft.wiki/w/Anvil) with the name of the item you're requesting.
 
 As long as you keep it stocked and maintained, your **Vessel** will do the work while you're gone.
 
@@ -63,7 +63,7 @@ As long as you keep it stocked and maintained, your **Vessel** will do the work 
 
 With your home built and wealth secured, it's time to expand your influence in **Sanctuary**!
 
-While you can manage your land with a [**Golden Shovel**](https://minecraft.wiki/w/Golden_Shovel), increasing the size of your claim requires more claim blocks, and these are not handed out freely.
+While you can manage your land with a [Golden Shovel](https://minecraft.wiki/w/Golden_Shovel), increasing the size of your claim requires more claim blocks, and these are not handed out freely.
 
 Trade with the **Abyss Trader** to obtain a **Whisperleaf**.
 With it in your possession, the elusive **Claimwright** may finally acknowledge your presence.
