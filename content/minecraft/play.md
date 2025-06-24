@@ -11,7 +11,7 @@
 - Minecraft **Java Edition** version **1.21.5**
 - Enable **Server Resource Packs**
 
-[Old Minecraft Version?(/minecraft/help#updates)
+[Old Minecraft?](/minecraft/help#updates)
 
 ---
 
