@@ -11,7 +11,8 @@ Minor changes to server configuration.
 
 --
 ## The Abyss
-**Total deaths:** 1
+
+A total of **1** deaths were recorded in **The Abyss** this week.
  
 ## Top 3 Mined Blocks
 - **Birch Log**: 6
