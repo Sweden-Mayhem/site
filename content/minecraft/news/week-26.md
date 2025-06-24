@@ -9,7 +9,7 @@ Week 26 brings minor changes.
 
 The Sweden Mayhem server version is now **1.0.0**.
 
-The weekly world backup can be found at our [Backup page](/minecraft/backup).
+The weekly world backup can be found at our [Backup page](/minecraft/backups).
 Please see our [Issues page](/minecraft/issues) for any known issues or bugs.
 
 # The Abyss
