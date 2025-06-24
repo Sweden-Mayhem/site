@@ -9,7 +9,7 @@
 ## Requirements
 
 - Minecraft **Java Edition** version **1.21.5**
-	- Old Version? More info on our [Help](/minecraft/help#updates) page.
+	- Old Version? More info on our [Help page](/minecraft/help#updates).
 - Enable **Server Resource Packs**
 
 ---
@@ -24,4 +24,4 @@
 5. Set the **Server Address** to `minecraft.swedenmayhem.se`
 6. Click **Done**, then select the server and click **Join Server**
 
-Read more about our unique systems and how to make your game pretty on our [Help](/minecraft/help) page!
+Read more about our unique systems and how to make your game pretty on our [Help page](/minecraft/help)!
