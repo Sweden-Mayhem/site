@@ -1,6 +1,6 @@
 # Help
 
-For a step-by-step guide on how to connect to the server, please see our [Play »](/minecraft/play) page.
+For a step-by-step guide on how to connect to the server, please see our [Play page](/minecraft/play).
 
 # Updates
 
@@ -12,9 +12,14 @@ A new world for **The Abyss** is generated during each maintenance window.
 ## Minecraft Version
 
 The server runs [PaperMC](https://papermc.io/) and always uses the latest PaperMC version with at least **100** builds.
-This means the server may run an experimental PaperMC branch if it meets the 100-build threshold.
+This means the server may run an experimental version if it meets the 100-build threshold.
 
-It typically takes 2-3 weeks for a new Minecraft version to reach 100 PaperMC builds, so may not run the very latest Minecraft version immediately after its release.
+It usually takes 2-3 weeks after a new Minecraft version is released for PaperMC to reach 100 builds.
+Because of this, the server may not run the absolute latest Minecraft version immediately after its release.
+
+However, because the server uses several plugins, updates may sometimes take longer.
+If a plugin fails to load or causes errors with the new Minecraft version, the server will automatically roll back to the previous version and try updating again the following week.
+
 Check the [PaperMC download page](https://papermc.io/downloads/paper) for the most recent builds.
 
 # Praying
