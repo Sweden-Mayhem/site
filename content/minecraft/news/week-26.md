@@ -4,8 +4,13 @@ Week 26 brings minor changes.
 
 # Server Updates
 
-Minor changes to server configuration.
+- Minor changes to server configuration
+- **Behind the scenes**: 10 system updates installed
 
+The Sweden Mayhem server version is now **1.0.0**.
+
+The weekly world backup can be found at our [Backup page](/minecraft/backup).
+Please see our [Issues page](/minecraft/issues) for any known issues or bugs.
 
 # The Abyss
  
@@ -23,5 +28,5 @@ Minor changes to server configuration.
 - **Zombie**: 1
 - **Chicken**: 1
  
-The new world for **The Abyss** took **1** attempts to generate and **107 seconds** to complete.
+The new world took **1** attempt to generate and **107 seconds** to complete.
  
