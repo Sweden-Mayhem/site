@@ -6,6 +6,7 @@ For a step-by-step guide on how to connect to the server, please see our [Play �
 
 Praying offers a number of beneficial effects 
 Not only does it let you store your currently held experience, it can also restore health and hunger, and grant powerful boons.
+
 Praying is only available in **Sanctuary**.
 
 ## The Praying Menu
@@ -44,9 +45,20 @@ A **Claim** is a player-owned area in **Sanctuary**, where items and blocks are 
 There is currently no limit to the number of claims you can own, and you can freely remove, resize, or expand any claim, as long as you have enough claim blocks.
 
 Placing your first chest in **Sanctuary** will automatically create a small claim area.
+You will be left with some additional claim blocks to expand your claim area.
 
 Use `/claimslist` to view your current claims and remaining claim blocks.
 To abandon a claim, stand inside it and use `/abandonclaim` or `/abandonallclaims` to remove all your claims.
+
+## Inactive Claims Removal
+
+Players that have not been online for a while will have their claims removed to free up space for new players.
+Simply being online in **Sanctuary** will prevent this.
+
+Initial chest claims will be removed after **30 days** of inactivity.
+Make sure to expand your claim area with your left over claim blocks to prevent this!
+
+Claims that have been expanded will be removed after **730 days** of inactivity.
 
 ## Visualizing Claims
 
@@ -127,37 +139,77 @@ Some may only respond with the correct item in your inventory.
 
 ## Edicts
 
-Every day, two **Society Voices** visit **Sanctuary**:
+Every day, two **Society Voices** will visit **Sanctuary**:
 
-- First arrives at **09:00**, leaves at **17:00**
-- Second arrives at **15:00**, leaves at **22:00**
+- The first one arrives at **09:00**, and leaves at **17:00**
+- The second one arrives at **15:00**, and leaves at **22:00**
 
 Each **Society Voice** offer unique **Edicts** that reward **Favor** upon completion.
 Earn enough **Favor**, and you will be rewarded with a **Society Reward**.
 
 ### Accepting an Edict:
 
-1. Right-click the **Society Voice**
-2. Hover over any Edict to view details
+1. Right-click a **Society Voice**
+2. Hover over any **Edict** to view its details
 3. Left-click to accept
 
-You can only have one active Edict at a time.
-Each lasts up to **10 hours**, and there is no penalty for failing **Edict**.
+You may only have one active **Edict** at a time.
+Each **Edict** has a time limit of **10 hours**, and there is no penalty for failing an **Edict**.
 
 ### Renouncing an Edict:
 
-1. Right-click the same **Society Voice**
+1. Right-click the **Society Voice** that gave you the **Edict**
 2. Right-click your active **Edict** (it will shimmer)
-3. Left-click “Release Binding” (green button)
+3. Left-click "Release Binding" (green button)
 
-There's no penalty for renouncing an Edict.
+There is no penalty for renouncing an **Edict**, and you can accept the same **Edict** again.
 
 ## The Reliquary
 
 The **Reliquary** is present daily between **09:00 and 23:00**.
 
-His main role is reward you with **Society Rewards** when you have earned enough **Favor**.
-**Society Rewards** include useful items and **Emeralds**.
+His main role is to reward you with **Society Rewards** when you have earned enough **Favor** from the **Society Voices**.
+**Society Rewards** mainly give you **Emeralds**, but will also include other useful items.
 
 He also hands out a free daily **Alms** (usually food), and will restore a portion of your hunger and health if low.
 Be sure to visit him at the start of your day!
+
+# Shaders
+
+The recommended shaderpack is [BLS Shaders](https://modrinth.com/shader/bsl-shaders) with these [custom settings](https://gist.githubusercontent.com/Hezkore/7f23e7604c69c8cfa90216bc003f2c21/raw/cc539908a031fbf525d085fe168492351d7a8153/BSL.txt).
+You will need either [Iris](https://www.irisshaders.dev/download) or [OptiFine](https://optifine.net/downloads) to use the shaderpack.
+However, OptiFine usually lacks support for the latest Minecraft versions, so Iris is the suggested option.
+
+To install support for shaders via Iris or OptiFine, follow these steps:
+
+1. Download [Iris Universal JAR](https://www.irisshaders.dev/download) or [OptiFine JAR for Minecraft 1.21.5](https://optifine.net/downloads)
+2. Run the downloaded JAR file (if double-clicking doesn't work, use command: `java -jar <file>.jar`)
+3. In the installer, make sure the selected Minecraft version is 1.21.5 and click "Install"
+4. Open the Minecraft Launcher, and you should have a new profile with Iris/OptiFine
+5. Start Minecraft with the profile
+
+If the above steps did not work, you can check out the official [Iris Installation Guide](https://github.com/IrisShaders/Iris/blob/multiloader-new/docs/guide.md).
+
+Once we have Iris or OptiFine installed, we can install the shaderpack:
+
+1. Download the [BLS Shaders ZIP](https://modrinth.com/shader/bsl-shaders) for Minecraft 1.21.5 and either Iris or OptiFine depending on what you installed
+2. Open Minecraft and go to "Options..." → "Video Settings..." → "Shaders Packs..." and click "Open Shader Packs Folder..."
+3. Move the downloaded BLS Shaders ZIP file into the newly opened Shader Packs folder
+4. Go back to Minecraft, and you should see the BLS Shaders in the list, click it and then "Apply"
+
+Finally, to apply the custom settings:
+
+1. Go to the [custom settings page](https://gist.githubusercontent.com/Hezkore/7f23e7604c69c8cfa90216bc003f2c21/raw/cc539908a031fbf525d085fe168492351d7a8153/BSL.txt)
+2. Copy the entire text content (hold Ctrl and press A, then hold Ctrl and press C)
+3. Open Minecraft and go to "Options..." → "Video Settings..." → "Shaders Packs..." and click "Open Shader Packs Folder..."
+4. Create a new empty text document in the previously opened Shader Packs folder, name it something like `BLS.txt`
+5. Open the newly created text document, and paste the previously copied text (hold Ctrl and press V)
+6. Save the text document and close it
+7. Go back to Minecraft, and in the "Shaders Packs..." menu, select the BLS Shaders and click "Shader Pack Settings..."
+8. In the top right corner, there's a button called "Import settings from file" next to the "Reset" button, hold your Shift key and press Reset first, then Import
+9. Select the `BLS.txt` file you previously created, and click "Open"
+10. Click "Done" until you are back in Minecraft
+
+You should now have the custom BLS Shaders settings applied!
+
+The custom settings are updated from time to time, so be sure to repeat the steps for applying the custom settings once in a while.
