@@ -9,7 +9,7 @@
 ## Requirements
 
 - Minecraft **Java Edition** version **1.21.5**
-	- Old Version? See [Help »](/minecraft/help#updates).
+	- <small>Old Version? See [Help »](/minecraft/help#updates).</small>
 - Enable **Server Resource Packs**
 
 ---

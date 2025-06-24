@@ -1,6 +1,6 @@
 # Help
 
-For a step-by-step guide on how to connect to the server, please see our [Play page](/minecraft/play).
+For a step-by-step guide on how to connect to the server, please see [Play Now »](/minecraft/play).
 
 # Updates
 
