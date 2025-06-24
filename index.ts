@@ -1,6 +1,9 @@
 import * as marked from 'https://deno.land/x/marked@1.0.2/mod.ts';
+import { gfmHeadingId } from "npm:marked-gfm-heading-id";
 
 import { Eta } from 'https://deno.land/x/eta@v3.5.0/src/index.ts';
+
+marked.use(gfmHeadingId({}));
 
 const eta = new Eta({ views: 'template', useWith: true });
 
