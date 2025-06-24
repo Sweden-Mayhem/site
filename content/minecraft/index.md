@@ -1,6 +1,10 @@
 # Sweden Mayhem
 
-A unique Minecraft server, split between two worlds: **Sanctuary** and **The Abyss**.
+A unique Minecraft server split between two worlds.
+
+Enjoy the challenge and excitement of an ever-changing hardcore world in **The Abyss**, with the comfort and security of a permanent, peaceful world in **Sanctuary**.
+
+[Play now »](/minecraft/play)
 
 ## Sanctuary
 
@@ -33,5 +37,3 @@ Other Wanderers gather. A new purpose awakens.
 The heart watches...
 
 [About the gameplay »](/minecraft/gameplay)
-
-[Play now »](/minecraft/play)
