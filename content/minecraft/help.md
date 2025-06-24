@@ -2,6 +2,21 @@
 
 For a step-by-step guide on how to connect to the server, please see our [Play »](/minecraft/play) page.
 
+# Updates
+
+The server backend and server software are updated every Friday at **06:00** Swedish time.
+Expected downtime is **2 hours**, but is usually much shorter.
+
+A new world for **The Abyss** is generated during each maintenance window.
+
+## Minecraft Version
+
+The server runs [PaperMC](https://papermc.io/) and always uses the latest PaperMC version with at least **100** builds.
+This means the server may run an experimental PaperMC branch if it meets the 100-build threshold.
+
+It typically takes 2-3 weeks for a new Minecraft version to reach 100 PaperMC builds, so may not run the very latest Minecraft version immediately after its release.
+Check the [PaperMC download page](https://papermc.io/downloads/paper) for the most recent builds.
+
 # Praying
 
 Praying offers a number of beneficial effects 
@@ -178,13 +193,13 @@ Be sure to visit him at the start of your day!
 
 The recommended shaderpack is [BLS Shaders](https://modrinth.com/shader/bsl-shaders) with these [custom settings](https://gist.githubusercontent.com/Hezkore/7f23e7604c69c8cfa90216bc003f2c21/raw/cc539908a031fbf525d085fe168492351d7a8153/BSL.txt).
 You will need either [Iris](https://www.irisshaders.dev/download) or [OptiFine](https://optifine.net/downloads) to use the shaderpack.
-However, OptiFine usually lacks support for the latest Minecraft versions, so Iris is the suggested option.
+However, OptiFine usually lacks support for the latest Minecraft versions, so Iris is suggested.
 
 To install support for shaders via Iris or OptiFine, follow these steps:
 
 1. Download [Iris Universal JAR](https://www.irisshaders.dev/download) or [OptiFine JAR for Minecraft 1.21.5](https://optifine.net/downloads)
 2. Run the downloaded JAR file (if double-clicking doesn't work, use command: `java -jar <file>.jar`)
-3. In the installer, make sure the selected Minecraft version is 1.21.5 and click "Install"
+3. In the installer, make sure the selected Minecraft version is **1.21.5** and click "Install"
 4. Open the Minecraft Launcher, and you should have a new profile with Iris/OptiFine
 5. Start Minecraft with the profile
 
@@ -192,7 +207,7 @@ If the above steps did not work, you can check out the official [Iris Installati
 
 Once we have Iris or OptiFine installed, we can install the shaderpack:
 
-1. Download the [BLS Shaders ZIP](https://modrinth.com/shader/bsl-shaders) for Minecraft 1.21.5 and either Iris or OptiFine depending on what you installed
+1. Download the [BLS Shaders ZIP](https://modrinth.com/shader/bsl-shaders) for Minecraft **1.21.5** and either Iris or OptiFine depending on what you installed
 2. Open Minecraft and go to "Options..." → "Video Settings..." → "Shaders Packs..." and click "Open Shader Packs Folder..."
 3. Move the downloaded BLS Shaders ZIP file into the newly opened Shader Packs folder
 4. Go back to Minecraft, and you should see the BLS Shaders in the list, click it and then "Apply"
