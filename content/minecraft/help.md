@@ -197,30 +197,42 @@ Be sure to visit him at the start of your day!
 
 # Shaders
 
-The recommended shaderpack is [BLS Shaders](https://modrinth.com/shader/bsl-shaders) with these [custom settings](https://gist.githubusercontent.com/Hezkore/7f23e7604c69c8cfa90216bc003f2c21/raw/cc539908a031fbf525d085fe168492351d7a8153/BSL.txt).
-You will need either [Iris](https://www.irisshaders.dev/download) or [OptiFine](https://optifine.net/downloads) to use the shaderpack.
-However, OptiFine usually lacks support for the latest Minecraft versions, so Iris is suggested.
+The recommended shaderpack is [BLS Shaders](https://modrinth.com/shader/bsl-shaders) with these [Custom Settings](https://gist.githubusercontent.com/Hezkore/7f23e7604c69c8cfa90216bc003f2c21/raw/cc539908a031fbf525d085fe168492351d7a8153/BSL.txt).
+You will need either [Iris](https://www.irisshaders.dev/download) or [OptiFine](https://optifine.net/downloads) to use the shaderpack and apply the custom settings.
+However, OptiFine usually lacks support for the latest Minecraft versions, so Iris is recommended.
+
+## Installing Iris or OptiFine
 
 To install support for shaders via Iris or OptiFine, follow these steps:
 
 1. Download [Iris Universal JAR](https://www.irisshaders.dev/download) or [OptiFine JAR for Minecraft 1.21.5](https://optifine.net/downloads)
-2. Run the downloaded JAR file (if double-clicking doesn't work, use command: `java -jar <file>.jar`)
-3. In the installer, make sure the selected Minecraft version is **1.21.5** and click "Install"
-4. Open the Minecraft Launcher, and you should have a new profile with Iris/OptiFine
+2. Run the downloaded JAR file to star the installer
+	- If double-clicking doesn't run the JAR, use command: `java -jar <file>.jar`
+3. In the installer, make sure to select Minecraft version **1.21.5** and click "Install"
+4. Open the Minecraft Launcher, which should have a new profile with Iris or OptiFine
 5. Start Minecraft with the profile
 
-If the above steps did not work, you can check out the official [Iris Installation Guide](https://github.com/IrisShaders/Iris/blob/multiloader-new/docs/guide.md).
+If the above steps did not work, see the official [Iris Installation](https://github.com/IrisShaders/Iris/blob/multiloader-new/docs/guide.md) guide.
 
-Once we have Iris or OptiFine installed, we can install the shaderpack:
+## Installing BLS Shaders
+
+Once we have Iris or OptiFine installed, we can install the shaderpack.
+Download the ZIP file with the shaders and place them in your Shader Packs folder.
+
+Follow these steps:
 
 1. Download the [BLS Shaders ZIP](https://modrinth.com/shader/bsl-shaders) for Minecraft **1.21.5** and either Iris or OptiFine depending on what you installed
 2. Open Minecraft and go to "Options..." → "Video Settings..." → "Shaders Packs..." and click "Open Shader Packs Folder..."
 3. Move the downloaded BLS Shaders ZIP file into the newly opened Shader Packs folder
 4. Go back to Minecraft, and you should see the BLS Shaders in the list, click it and then "Apply"
 
-Finally, to apply the custom settings:
+## Custom BLS Settings
 
-1. Go to the [custom settings page](https://gist.githubusercontent.com/Hezkore/7f23e7604c69c8cfa90216bc003f2c21/raw/cc539908a031fbf525d085fe168492351d7a8153/BSL.txt)
+To apply the custom BLS settings, we need to grab the settings from the Custom Settings page and copy them to a text document in the Shader Packs folder.
+
+Follow these steps:
+
+1. Go to the [Custom Settings](https://gist.githubusercontent.com/Hezkore/7f23e7604c69c8cfa90216bc003f2c21/raw/cc539908a031fbf525d085fe168492351d7a8153/BSL.txt) page
 2. Copy the entire text content (hold Ctrl and press A, then hold Ctrl and press C)
 3. Open Minecraft and go to "Options..." → "Video Settings..." → "Shaders Packs..." and click "Open Shader Packs Folder..."
 4. Create a new empty text document in the previously opened Shader Packs folder, name it something like `BLS.txt`

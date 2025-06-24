@@ -9,7 +9,7 @@
 ## Requirements
 
 - Minecraft **Java Edition** version **1.21.5**
-	- Old Version? More info on our [Help page](/minecraft/help#updates).
+	- Old Version? See [Help »](/minecraft/help#updates).
 - Enable **Server Resource Packs**
 
 ---
@@ -17,12 +17,12 @@
 ## Steps to Join
 
 1. Launch [Minecraft Java Edition](https://www.minecraft.net/store/minecraft-java-bedrock-edition-pc) version **1.21.5**
-	- Need to change version? Read the official [Change Version](https://help.minecraft.net/hc/articles/360034754852-Change-Game-Version-for-Minecraft-Java-Edition) guide.
+	- Need to change version? See the official [Change Version](https://help.minecraft.net/hc/articles/360034754852-Change-Game-Version-for-Minecraft-Java-Edition) guide.
 2. Click **Multiplayer**
 3. Click **Add Server**
 4. Set the **Server Name** to `Sweden Mayhem`
 5. Set the **Server Address** to `minecraft.swedenmayhem.se`
 6. Click **Done**, then select the server and click **Join Server**
 
-Learn more about your first steps in **Sanctuary** and **The Abyss** on our [Gameplay page](/minecraft/gameplay).
-For details on our unique systems and tips to enhance your visuals, visit our [Help page](/minecraft/help).
+Learn more about your first steps in **Sanctuary** and **The Abyss** at [About the Gameplay »](/minecraft/gameplay).
+For details on our unique systems and tips to enhance your visuals, see [Help »](/minecraft/help).
