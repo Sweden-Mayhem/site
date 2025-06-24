@@ -7,10 +7,8 @@ Week 26 brings minor changes.
 Minor changes to server configuration.
 
 
----
 # The Abyss
-
-A total of **1** deaths were recorded in **The Abyss** this week.
+**1** player ventured into **The Abyss** and **1** death was recorded.
  
 ## Top 3 Mined Blocks
 - **Birch Log**: 6
