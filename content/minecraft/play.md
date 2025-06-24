@@ -11,6 +11,8 @@
 - Minecraft **Java Edition** version **1.21.5**
 - Enable **Server Resource Packs**
 
+[Server update info](/minecraft/help#updates)
+
 ---
 
 ## Steps to Join

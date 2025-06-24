@@ -4,7 +4,7 @@ A unique Minecraft server split between two worlds.
 
 Enjoy the challenge and excitement of an ever-changing hardcore world in **The Abyss**, with the comfort and security of a permanent, peaceful world in **Sanctuary**.
 
-[Play now »](/minecraft/play)
+[Play Now »](/minecraft/play)
 
 ## Sanctuary
 
@@ -36,4 +36,4 @@ But fear not, for you are not alone.
 Other Wanderers gather. A new purpose awakens.
 The heart watches...
 
-[About the gameplay »](/minecraft/gameplay)
+[About the Gameplay »](/minecraft/gameplay)
