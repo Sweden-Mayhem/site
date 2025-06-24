@@ -8,6 +8,7 @@ Minor changes to server configuration.
 
 
 # The Abyss
+ 
 **1** player ventured into **The Abyss** and **1** death was recorded.
  
 ## Top 3 Mined Blocks
