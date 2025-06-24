@@ -1,7 +1,7 @@
 # Week 26 - 2025 Update
 
 Week 26 brings minor changes.
-
+---
 ## Software Updates
 
 Minor changes to server configuration.
