@@ -13,7 +13,7 @@ A new world for **The Abyss** is generated during each maintenance window.
 
 The server runs [PaperMC](https://papermc.io/) and always uses the latest PaperMC version with at least **100** builds.
 This means the server may run an experimental version if it meets the 100-build threshold.
-Currently, the server runs **PaperMC 1.21.5 build 114**.
+Currently, the server runs **PaperMC 1.21.5** build **114**.
 
 It usually takes 2-3 weeks after a new Minecraft version is released for PaperMC to reach 100 builds.
 Because of this, the server may not run the absolute latest Minecraft version immediately after its release.
