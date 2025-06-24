@@ -24,4 +24,5 @@
 5. Set the **Server Address** to `minecraft.swedenmayhem.se`
 6. Click **Done**, then select the server and click **Join Server**
 
-Read more about our unique systems and how to make your game pretty on our [Help page](/minecraft/help)!
+Learn more about your first steps in **Sanctuary** and **The Abyss** on our [Gameplay page](/minecraft/gameplay).
+For details on our unique systems and tips to enhance your visuals, visit our [Help page](/minecraft/help).
