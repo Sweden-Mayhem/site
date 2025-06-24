@@ -7,8 +7,7 @@ Week 26 brings minor changes.
 Minor changes to server configuration.
 
 
---
-
+---
 ## The Abyss
 
 A total of **1** deaths were recorded in **The Abyss** this week.
