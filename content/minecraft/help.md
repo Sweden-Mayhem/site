@@ -249,4 +249,4 @@ Follow these steps:
 
 You should now have the custom BLS Shaders settings applied!
 
-The custom settings are updated from time to time, so be sure to reapt this step once in a while.
+The custom settings are updated from time to time, so be sure to repeat this step once in a while.
