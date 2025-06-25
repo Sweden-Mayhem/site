@@ -240,7 +240,7 @@ Follow these steps:
 3. Open Minecraft and go to **Options... → Video Settings... → Shaders Packs...** and click "Open Shader Packs Folder..."
 4. Create a new empty text document in the previously opened Shader Packs folder, name it something like `BLS.txt`
 5. Open the newly created text document, and paste the previously copied text
-	- <smallHold Ctrl and press V to paste</small>
+	- <small>Hold Ctrl and press V to paste</small>
 6. Save the text document and close it
 7. Go back to Minecraft, and in the "Shaders Packs..." menu, select the BLS Shaders and click "Shader Pack Settings..."
 8. In the top right corner, there's a button called "Import settings from file" next to the "Reset" button, hold your Shift key and press Reset first, then Import
