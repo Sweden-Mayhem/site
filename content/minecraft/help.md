@@ -212,7 +212,7 @@ To install support for shaders via Iris or OptiFine, follow these steps:
 	- <small>If double-clicking doesn't start the installer, use command: `java -jar <file>.jar`</small>
 3. In the installer, make sure to select Minecraft version **1.21.5** and click "Install"
 4. Open the Minecraft Launcher, which should have a new profile with Iris or OptiFine
-5. Start Minecraft with the profile
+5. Start Minecraft with the new profile
 
 If the above steps did not work, see the official [Iris Installation](https://github.com/IrisShaders/Iris/blob/multiloader-new/docs/guide.md) guide.
 
@@ -223,8 +223,8 @@ Download the ZIP file with the shaders, then place the ZIP file in your Shader P
 
 Follow these steps:
 
-1. Download the [BLS Shaders ZIP](https://modrinth.com/shader/bsl-shaders) for Minecraft **1.21.5** and either Iris or OptiFine depending on what you installed
-2. Open Minecraft and go to **Options... → Video Settings... → Shaders Packs...** and click **Open Shader Packs Folder...**
+1. Download the [BLS Shaders ZIP](https://modrinth.com/shader/bsl-shaders) for Minecraft **1.21.5** and Iris or OptiFine depending on what you installed
+2. Open Minecraft and go to **Options... → Video Settings... → Shaders Packs...** and click "Open Shader Packs Folder..."
 3. Move the downloaded BLS Shaders ZIP file into the newly opened Shader Packs folder
 4. Go back to Minecraft, and you should see the BLS Shaders in the list, click it and then "Apply"
 
@@ -235,10 +235,12 @@ To apply the custom BLS settings, we need to grab the settings from the Custom S
 Follow these steps:
 
 1. Go to the [Custom Settings](https://gist.githubusercontent.com/Hezkore/7f23e7604c69c8cfa90216bc003f2c21/raw/cc539908a031fbf525d085fe168492351d7a8153/BSL.txt) page
-2. Copy the entire text content (hold Ctrl and press A, then hold Ctrl and press C)
-3. Open Minecraft and go to **Options... → Video Settings... → Shaders Packs...** and click **Open Shader Packs Folder...**
+2. Copy the entire text content
+	- <small>Hold Ctrl and press A, then hold Ctrl and press C to copy</small>
+3. Open Minecraft and go to **Options... → Video Settings... → Shaders Packs...** and click "Open Shader Packs Folder..."
 4. Create a new empty text document in the previously opened Shader Packs folder, name it something like `BLS.txt`
-5. Open the newly created text document, and paste the previously copied text (hold Ctrl and press V)
+5. Open the newly created text document, and paste the previously copied text
+	- <smallHold Ctrl and press V to paste</small>
 6. Save the text document and close it
 7. Go back to Minecraft, and in the "Shaders Packs..." menu, select the BLS Shaders and click "Shader Pack Settings..."
 8. In the top right corner, there's a button called "Import settings from file" next to the "Reset" button, hold your Shift key and press Reset first, then Import
