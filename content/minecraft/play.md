@@ -8,16 +8,16 @@
 
 ## Requirements
 
-- Minecraft **Java Edition** version **1.21.5**
-	- <small>Old Version? See [Help »](/minecraft/help#updates).</small>
+- [Minecraft Java Edition](https://www.minecraft.net/store/minecraft-java-bedrock-edition-pc) version **1.21.5**
+	- <small>Old Version? See [Help »](/minecraft/help#updates)</small>
 - Enable **Server Resource Packs**
 
 ---
 
 ## Steps to Join
 
-1. Launch [Minecraft Java Edition](https://www.minecraft.net/store/minecraft-java-bedrock-edition-pc) version **1.21.5**
-	- <small>Need to change version? See the official [Change Version](https://help.minecraft.net/hc/articles/360034754852-Change-Game-Version-for-Minecraft-Java-Edition) guide.</small>
+1. Launch Minecraft Java Edition version **1.21.5**
+	- <small>Need to change version? See the official [Change Version](https://help.minecraft.net/hc/articles/360034754852-Change-Game-Version-for-Minecraft-Java-Edition) guide</small>
 2. Click **Multiplayer**
 3. Click **Add Server**
 4. Set the **Server Name** to `Sweden Mayhem`
