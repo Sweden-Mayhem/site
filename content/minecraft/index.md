@@ -14,7 +14,7 @@ Now, **Sanctuary** lies barren, lifeless, silent, a dead world of dust and ruin.
 
 Its people, now called Wanderers, drift through dust and ruin, stripped of meaning.
 
-But something stirs at the heart of **Sanctuary**...
+But something stirs at the heart of **Sanctuary**.
 A gate flickers. A path opens.
 
 ## The Abyss

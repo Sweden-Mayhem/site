@@ -53,7 +53,7 @@ He does not care for small talk, but he will reanimate a trader's remains and bi
 
 Your **Vessel** must be placed beside a newly placed container. That container becomes the shop's inventory — holding both what's for sale and what other players sell back.
 
-If you want the **Vessel** to buy something you don't yet have, just rename a piece of [Paper](https://minecraft.wiki/w/Paper) in an [Anvil](https://minecraft.wiki/w/Anvil) with the name of the item you're requesting.
+If you want the **Vessel** to buy something you don't yet have, just place a piece of [Paper](https://minecraft.wiki/w/Paper) in an [Anvil](https://minecraft.wiki/w/Anvil) and rename it to the item you're requesting.
 
 As long as you keep it stocked and maintained, your **Vessel** will do the work while you're gone.
 
