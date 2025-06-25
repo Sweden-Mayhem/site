@@ -106,7 +106,7 @@ You cannot shrink a claim to below 80 blocks, or a width less than 5 blocks.
 
 While standing inside your claim, equip your [Golden Shovel](https://minecraft.wiki/w/Golden_Shovel), then:
 
-1. Right-click one of the glowing gold corner markers
+1. Right-click one of the glowing corner markers
 2. Right-click again to set the new size:
 	- **Inside** the current area to shrink
 	- **Outside** the current area to expand
@@ -156,7 +156,7 @@ Most are active between **08:00 - 23:00** Swedish time, though some minor occurr
 
 Each structure includes at least one container (often hidden) that may contain loot, refreshed at random intervals. Anyone can take these items, so check them frequently!
 
-To interact with NPCs, simply right-click on them.
+To interact with NPCs, simply right-click them.
 However, some may only respond with the correct item in your inventory.
 
 ## Edicts
@@ -182,7 +182,7 @@ Each **Edict** has a time limit of **10 hours**, and there is no penalty for fai
 
 1. Right-click the **Society Voice** that gave you the **Edict**
 2. Right-click your active **Edict**
-	- <small>Accepted **Edicts** will shimmer</small>
+	- <small>The active **Edict** will shimmer</small>
 3. Left-click "Release Binding" (green button)
 
 There is no penalty for renouncing an **Edict**, and you can accept the same **Edict** again.
@@ -208,8 +208,8 @@ However, OptiFine usually lacks support for the latest Minecraft versions, so Ir
 To install support for shaders via Iris or OptiFine, follow these steps:
 
 1. Download [Iris Universal JAR](https://www.irisshaders.dev/download) or [OptiFine JAR for Minecraft 1.21.5](https://optifine.net/downloads)
-2. Run the downloaded JAR file to star the installer
-	- <small>If double-clicking doesn't run the JAR, use command: `java -jar <file>.jar`</small>
+2. Run the downloaded JAR file to start the installer
+	- <small>If double-clicking doesn't start the installer, use command: `java -jar <file>.jar`</small>
 3. In the installer, make sure to select Minecraft version **1.21.5** and click "Install"
 4. Open the Minecraft Launcher, which should have a new profile with Iris or OptiFine
 5. Start Minecraft with the profile
