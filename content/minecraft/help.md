@@ -57,7 +57,7 @@ The current **Divine Experience** limits are:
 At certain structures within **Sanctuary's Heart**, you can use the `/pray` command to align yourself with either **Good** or **Bad**.
 There is a time limit of **30 minutes** between prayers, and the alignment depends on the structure you pray at.
 
-A strong enough alignment unlocks powerful boons in the praying menu, offering strong temporary buffs.
+A strong enough alignment in either direction unlocks powerful boons in the praying menu, offering unique and strong temporary buffs.
 Your alignment is reset to **Neutral** after a boon has been applied.
 
 # Claims
@@ -87,6 +87,7 @@ There are two ways to visualize claim boundaries.
 First, equip a [Stick](https://minecraft.wiki/w/Stick), then:
 
 - Right-click any claimed block to visualize the claim boundaries
+Or:
 - While crouching, right-click any block to visualize all nearby claims
 
 There are two types of claim boundaries:
@@ -94,8 +95,35 @@ There are two types of claim boundaries:
 - **Gold** indicate player-owned claims
 - **Red** indicate protected areas you cannot modify or claim
 
-The boundaries will automatically hide after a while.
+The boundaries will automatically be hidden after a while.
 To hide the boundaries early, right-click any unclaimed block with your [Stick](https://minecraft.wiki/w/Stick).
+
+## Resizing Claims
+
+You are free to resize your claims at any time using a [Golden Shovel](https://minecraft.wiki/w/Golden_Shovel).
+Reducing the size will return any claim blocks used in the removed area, while expanding will require additional claim blocks.
+You cannot shrink a claim to below 80 blocks, or a width less than 5 blocks.
+
+While standing inside your claim, equip your [Golden Shovel](https://minecraft.wiki/w/Golden_Shovel), then:
+
+1. Right-click one of the glowing gold corner markers
+2. Right-click again to set the new size:
+	- **Inside** the current area to shrink
+	- **Outside** the current area to expand
+
+## Creating a New Claim
+
+To create a new claim area:
+
+- You must have at least 80 claim blocks available
+- The claim must be at least 80 blocks and at least 5 blocks wide
+
+Then:
+
+1. Use a [Stick](https://minecraft.wiki/w/Stick) to locate unclaimed land
+2. Equip your [Golden Shovel](https://minecraft.wiki/w/Golden_Shovel)
+3. Right-click an unclaimed block
+4. Right-click the opposite corner diagonally to create the claim
 
 ## Trust and Permissions
 
@@ -121,33 +149,6 @@ While standing inside your claim, equip a [Golden Shovel](https://minecraft.wiki
 - `/basicclaims` — Returns your shovel to normal mode
 - `/restrictsubclaim` — Prevents a subclaim from inheriting permissions from its parent
 
-## Resizing Claims
-
-You are free to resize your claims at any time.
-Reducing the size will return any claim blocks used in the removed area, while expanding will require additional claim blocks.
-You cannot shrink a claim to below 80 blocks, or a width less than 5 blocks.
-
-While standing inside your claim, equip your [Golden Shovel](https://minecraft.wiki/w/Golden_Shovel), then:
-
-1. Right-click one of the glowing gold corner markers
-2. Right-click again to set the new size:
-	- **Inside** the current area to shrink
-	- **Outside** the current area to expand
-
-## Creating a New Claim
-
-To create a new claim area:
-
-- You must have at least 80 claim blocks available
-- The claim must be at least 80 blocks and at least 5 blocks wide
-
-Then:
-
-1. Use a [Stick](https://minecraft.wiki/w/Stick) to locate unclaimed land
-2. Equip your [Golden Shovel](https://minecraft.wiki/w/Golden_Shovel)
-3. Right-click an unclaimed block
-4. Right-click the opposite corner diagonally to create the claim
-
 # Sanctuary's Heart
 
 The four central locations in **Sanctuary** rotate through different events, NPCs, and structures.
@@ -155,8 +156,8 @@ Most are active between **08:00 - 23:00** Swedish time, though some minor occurr
 
 Each structure includes at least one container (often hidden) that may contain loot, refreshed at random intervals. Anyone can take these items, so check them frequently!
 
-Right-click any NPC to interact.
-Some may only respond with the correct item in your inventory.
+To interact with NPCs, simply right-click on them.
+However, some may only respond with the correct item in your inventory.
 
 ## Edicts
 
@@ -166,7 +167,7 @@ Every day, two **Society Voices** will visit **Sanctuary**:
 - The second one arrives at **15:00**, and leaves at **22:00**
 
 Each **Society Voice** offer unique **Edicts** that reward **Favor** upon completion.
-Earn enough **Favor**, and you will be rewarded with a **Society Reward**.
+Earn enough **Favor** and you will be rewarded with a **Society Reward**.
 
 ### Accepting an Edict:
 
@@ -180,20 +181,21 @@ Each **Edict** has a time limit of **10 hours**, and there is no penalty for fai
 ### Renouncing an Edict:
 
 1. Right-click the **Society Voice** that gave you the **Edict**
-2. Right-click your active **Edict** (it will shimmer)
+2. Right-click your active **Edict**
+	- <small>Accepted **Edicts** will shimmer</small>
 3. Left-click "Release Binding" (green button)
 
 There is no penalty for renouncing an **Edict**, and you can accept the same **Edict** again.
 
 ## The Reliquary
 
-The **Reliquary** is present daily between **09:00 and 23:00**.
+The **Reliquary** is present daily between **09:00** and **23:00**.
 
 His main role is to reward you with **Society Rewards** when you have earned enough **Favor** from the **Society Voices**.
 **Society Rewards** mainly give you **Emeralds**, but will also include other useful items.
 
-He also hands out a free daily **Alms** (usually food), and will restore a portion of your hunger and health if low.
-Be sure to visit him at the start of your day!
+The **Reliquary** will hand out a free daily **Alms** (usually food), and restore a portion of your hunger and health if low.
+Be sure to visit him at the start of your day, or when you need to quickly restore your hunger and health.
 
 # Shaders
 
