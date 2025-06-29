@@ -1,8 +1,3 @@
-# Welcome to my big gay site
+# Sweden Mayhem
 
-Here is some text content
-on Multiple lines
-
----
-
-Also I really love pizza
+Welcome to the Sweden Mayhem gaming community!
