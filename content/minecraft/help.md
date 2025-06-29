@@ -25,7 +25,7 @@ Check the [PaperMC download page](https://papermc.io/downloads/paper) for the mo
 
 # Praying
 
-Praying offers a number of beneficial effects 
+Praying offers a number of beneficial effects.
 Not only does it let you store your currently held experience, it can also restore health and hunger, and grant powerful boons.
 
 Praying is only available in **Sanctuary**.
@@ -39,7 +39,7 @@ You can stack multiple candles to increase the number of available flames, and l
 
 Candles are usually lit with a [Flint and Steel](https://minecraft.wiki/w/Flint_and_Steel).
 
-## Experience
+## Divine Experience
 
 Praying allows you to deposit and withdraw experience as **Divine Experience**.
 There is no penalty for depositing or withdrawing experience.
@@ -161,6 +161,8 @@ However, some may only respond with the correct item in your inventory.
 
 ## Edicts
 
+**Edicts** are daily generated tasks that you can accept from **Society Voices**.
+
 Every day, two **Society Voices** will visit **Sanctuary**:
 
 - The first one arrives at **09:00**, and leaves at **17:00**
@@ -179,6 +181,8 @@ You may only have one active **Edict** at a time.
 Each **Edict** has a time limit of **10 hours**, and there is no penalty for failing an **Edict**.
 
 ### Renouncing an Edict:
+
+Renouncing an **Edict** is only possible while the **Society Voice** is still present in **Sanctuary**.
 
 1. Right-click the **Society Voice** that gave you the **Edict**
 2. Right-click your active **Edict**
