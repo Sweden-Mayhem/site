@@ -2,8 +2,6 @@
 
 Week 27 brings minor changes.
 
-# Server Updates
-
 - Minor changes to server configuration
 - **Behind the scenes**: 1 system updates installed
 
