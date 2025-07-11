@@ -3,7 +3,7 @@
 Week 27 brings minor changes.
 
 - Minor changes to server configuration
-- **Behind the scenes**: 1 system updates installed
+- **Behind the scenes**: 1 system update was installed
 
 The Sweden Mayhem server version is now **1.2.0**.
 
