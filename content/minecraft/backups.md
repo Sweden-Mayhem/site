@@ -4,6 +4,7 @@
 
 The **Sanctuary** world is backed up weekly during the Friday server maintenance.
 
+- [Week 37 - 2025](http://95.141.241.204:30666/world_backup/world_backup_week-37-2025.tar.gz)
 - [Week 36 - 2025](http://95.141.241.204:30666/world_backup/world_backup_week-36-2025.tar.gz)
 - [Week 35 - 2025](http://95.141.241.204:30666/world_backup/world_backup_week-35-2025.tar.gz)
 - [Week 34 - 2025](http://95.141.241.204:30666/world_backup/world_backup_week-34-2025.tar.gz)
@@ -12,4 +13,3 @@ The **Sanctuary** world is backed up weekly during the Friday server maintenance
 - [Week 31 - 2025](http://95.141.241.204:30666/world_backup/world_backup_week-31-2025.tar.gz)
 - [Week 30 - 2025](http://95.141.241.204:30666/world_backup/world_backup_week-30-2025.tar.gz)
 - [Week 29 - 2025](http://95.141.241.204:30666/world_backup/world_backup_week-29-2025.tar.gz)
-- [Week 28 - 2025](http://95.141.241.204:30666/world_backup/world_backup_week-28-2025.tar.gz)
