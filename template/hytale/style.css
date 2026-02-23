@@ -1,0 +1,303 @@
+/* Hytale - Sweden Mayhem site theme
+   Design language: dark navy, fantasy RPG, Hytale palette
+   Fonts: Lexend (headings), Nunito Sans (body) - served by Google Fonts
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Lexend:wght@700&display=swap');
+
+/* ---- Reset / Base ------------------------------------------ */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+	background-color: #0d1b2e;
+	background-image:
+		radial-gradient(ellipse at 20% 0%, #1a3a5c44 0%, transparent 60%),
+		radial-gradient(ellipse at 80% 100%, #2a1a4a44 0%, transparent 60%);
+	background-attachment: fixed;
+	color: #c8d8f0;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1100px;
+	min-height: 100vh;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 700;
+	color: #7ab8f5;
+}
+
+a:hover {
+	color: #a8d4ff;
+	text-decoration: underline;
+}
+
+/* ---- Header / Nav ------------------------------------------ */
+
+header {
+	overflow: hidden;
+}
+
+header #logo {
+	margin: 2em 0 1.5em;
+	text-align: center;
+}
+
+header #logo img {
+	max-width: 100%;
+	max-height: 120px;
+}
+
+header #logo .site-title {
+	display: block;
+	font-family: 'Lexend', sans-serif;
+	font-size: 2.2em;
+	letter-spacing: 0.08em;
+	color: #e8f4ff;
+	text-shadow: 0 0 30px #4a9eff88, 0 2px 4px #000a;
+	margin-top: 0.3em;
+}
+
+header #logo .site-subtitle {
+	display: block;
+	font-size: 0.8em;
+	color: #7ab8f5;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	margin-top: 0.2em;
+}
+
+header nav {
+	margin: 0 auto 1.5em;
+	background: linear-gradient(135deg, #162840ee, #1e3555ee);
+	border: 1px solid #2a4a7a55;
+	border-radius: 6px;
+	box-shadow: 0 4px 24px #00000088, inset 0 1px 0 #ffffff12;
+	max-width: calc(min(900px, 100vw - 20px));
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0 16px;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header nav ul li {
+	margin: 0;
+}
+
+header nav ul li a {
+	display: inline-block;
+	color: #8aaed4;
+	padding: 14px 18px;
+	font-weight: 600;
+	font-size: 0.9em;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	transition: color 0.15s, background 0.15s;
+}
+
+header nav ul li a:hover {
+	color: #e8f4ff;
+	background: #ffffff0d;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+header nav ul li.active a {
+	color: #e8f4ff;
+}
+
+header nav ul li.active {
+	background: linear-gradient(180deg, #2a6aaa, #1a4a8a 8px, #0f2d5e, #050f1e 140px);
+	border-radius: 4px;
+	text-shadow: 0 1px 3px #000a;
+	box-shadow: inset 0 1px 0 #ffffff18;
+}
+
+header nav ul li.active a:hover {
+	background: transparent;
+}
+
+/* ---- Article ------------------------------------------------ */
+
+article {
+	max-width: calc(min(900px, 100vw - 20px));
+	margin: 10px auto 20px;
+	padding: 28px 32px;
+	background: linear-gradient(160deg, #162840f5, #111f35f5);
+	border: 1px solid #2a4a7a44;
+	border-radius: 6px;
+	box-shadow: 0 6px 32px #00000099, inset 0 1px 0 #ffffff0a;
+	min-height: 40vh;
+}
+
+article > h1 {
+	font-family: 'Lexend', sans-serif;
+	font-size: 1.6em;
+	letter-spacing: 0.04em;
+	text-align: center;
+	color: #e8f4ff;
+	text-shadow: 0 0 20px #4a9eff55, 0 2px 4px #0008;
+	background: linear-gradient(180deg, #1e4a8a, #163a72 8px, #0c2248, #050f1e 130px);
+	border: 1px solid #2a5a9a44;
+	border-bottom: 1px solid #2a4a7a22;
+	padding: 14px 20px;
+	margin: -28px -32px 28px;
+	border-radius: 6px 6px 0 0;
+	box-shadow: inset 0 1px 0 #ffffff18;
+}
+
+article h2 {
+	font-family: 'Lexend', sans-serif;
+	font-size: 1.2em;
+	color: #a8d0ff;
+	margin: 1.5em 0 0.4em;
+	letter-spacing: 0.03em;
+}
+
+article h2 + p.subheading {
+	margin-top: -4px;
+	color: #7ab8f5;
+	font-style: italic;
+}
+
+article p {
+	margin: 0.75em 0;
+	line-height: 1.65;
+	color: #b8cce4;
+}
+
+article hr {
+	border: none;
+	border-top: 1px solid #2a4a7a55;
+	margin: 1.5em 0;
+}
+
+article img {
+	max-width: 100%;
+	border-radius: 4px;
+}
+
+article ul, article ol {
+	color: #b8cce4;
+	line-height: 1.7;
+}
+
+article strong {
+	color: #d8ecff;
+}
+
+article a {
+	color: #7ab8f5;
+	font-style: italic;
+	text-decoration-color: #2a6aaa;
+	text-decoration-thickness: 1px;
+	padding: 0 2px;
+}
+
+article a:hover {
+	color: #a8d4ff;
+	text-decoration: underline;
+}
+
+article h1 a {
+	color: inherit;
+	font-style: normal;
+	text-decoration: none;
+	padding: 0;
+}
+
+article h1 a:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* ---- Buttons ----------------------------------------------- */
+
+.button {
+	display: inline-block;
+	font-family: 'Lexend', sans-serif;
+	font-size: 0.85em;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #e8f4ff;
+	text-shadow: 0 1px 3px #000a;
+	background: linear-gradient(180deg, #2a6aaa, #1a4a8a 8px, #0f2d5e, #050f1e 130px);
+	border: 1px solid #2a5a9a55;
+	border-radius: 4px;
+	padding: 10px 18px;
+	margin: 10px 0;
+	box-shadow: 0 3px 12px #00000066, inset 0 1px 0 #ffffff18;
+	transition: filter 0.15s;
+}
+
+.button:hover {
+	filter: brightness(1.25);
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ---- Pagination -------------------------------------------- */
+
+.pagination {
+	display: flex;
+	margin: 10px auto;
+	max-width: calc(min(900px, 100vw - 20px));
+	border-radius: 6px;
+	overflow: hidden;
+	background: #162840aa;
+	border: 1px solid #2a4a7a33;
+}
+
+.pagination > .spacer {
+	flex: 1 0 auto;
+}
+
+.pagination > .button {
+	margin: 0;
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+}
+
+.pagination > .button:first-child {
+	border-right: 1px solid #2a4a7a33;
+}
+
+.pagination > .button:last-child {
+	border-left: 1px solid #2a4a7a33;
+}
+
+/* ---- Responsive -------------------------------------------- */
+
+@media (max-width: 640px) {
+	body {
+		font-size: 16px;
+	}
+
+	article {
+		padding: 20px 18px;
+	}
+
+	article > h1 {
+		margin: -20px -18px 20px;
+		font-size: 1.3em;
+	}
+
+	header nav ul li a {
+		padding: 12px 12px;
+		font-size: 0.82em;
+	}
+}

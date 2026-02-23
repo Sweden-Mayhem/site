@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style.css" />
+	<title>Hytale - Sweden Mayhem &gt; News &gt; <%= currentPage.title %></title>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			<a href="/">
+				<img src="../logo.png" alt="Sweden Mayhem" onerror="this.style.display='none'" />
+				<span class="site-title">Sweden Mayhem</span>
+				<span class="site-subtitle">Hytale Server</span>
+			</a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="../">Welcome</a></li>
+<% for(const page of parentSection.contentPages){ %>
+				<li><a href="../<%= page.name %>"><%= page.title %></a></li>
+<% } %>
+<% for(const section of parentSection.sections) if(section.hasIndex) { %>
+				<li <%~ section.name=='news'?'class="active"':'' %>><a href="../<%= section.name %>/"><%= section.title %></a></li>
+<% } %>
+			</ul>
+		</nav>
+	</header>
+
+	<article>
+<%~ currentPage.html %>
+	</article>
+
+	<div class="pagination">
+		<a class="button" href="./">All news</a>
+		<div class="spacer"></div>
+<% if(currentPage.previousPage){ %>
+		<a class="button" href="<%= currentPage.previousPage.name %>">Previous: <%= currentPage.previousPage.name %></a>
+<% } %>
+<% if(currentPage.nextPage){ %>
+		<a class="button" href="<%= currentPage.nextPage.name %>">Next: <%= currentPage.nextPage.name %></a>
+<% } %>
+	</div>
+</body>
+</html>
