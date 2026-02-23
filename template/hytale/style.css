@@ -15,7 +15,7 @@ body {
 		url('https://www.hytale.com/static/images/backgrounds/content-lower-480.jpg');
 	background-position: top center, bottom center;
 	background-repeat: no-repeat, no-repeat;
-	background-size: 100% auto, 100% auto;
+	background-size: auto, auto;
 	color: #c3dbea;
 	margin: 0 auto;
 	padding: 0;
@@ -35,28 +35,19 @@ header #logo {
 	text-align: center;
 }
 
+header #logo a {
+	display: inline-block;
+}
+
 header #logo img {
-	max-height: 80px;
-	max-width: 100%;
+	max-height: 160px;
+	max-width: 80%;
+	filter: drop-shadow(0 4px 24px #00000099);
+	transition: filter 0.15s;
 }
 
-header #logo .site-title {
-	display: block;
-	font-family: 'Lexend', sans-serif;
-	font-size: 2em;
-	letter-spacing: 0.1em;
-	color: #ebf7ff;
-	text-shadow: 0 0 40px #479db888, 0 2px 6px #000c;
-	margin-top: 0.4em;
-}
-
-header #logo .site-subtitle {
-	display: block;
-	font-size: 0.75em;
-	color: #7db9e5;
-	letter-spacing: 0.2em;
-	text-transform: uppercase;
-	margin-top: 0.2em;
+header #logo a:hover img {
+	filter: drop-shadow(0 4px 32px #479db866) brightness(1.05);
 }
 
 /* ---- Nav ---------------------------------------------------- */
@@ -82,8 +73,9 @@ header nav::after {
 	background-size: 16px 16px;
 	pointer-events: none;
 }
-header nav::before { left: -1px; }
-header nav::after  { right: -1px; transform: scaleX(-1); }
+/* corner image is bottom-right; rotate to get top-left and top-right */
+header nav::before { left:  -1px; transform: scale(-1); }
+header nav::after  { right: -1px; transform: scaleY(-1); }
 
 header nav ul {
 	margin: 0;
@@ -148,8 +140,9 @@ article::after {
 	background-size: 20px 20px;
 	pointer-events: none;
 }
-article::before { top: -1px; left: -1px; }
-article::after  { top: -1px; right: -1px; transform: scaleX(-1); }
+/* corner image is bottom-right; rotate to get top-left and top-right */
+article::before { top: -1px; left:  -1px; transform: scale(-1); }
+article::after  { top: -1px; right: -1px; transform: scaleY(-1); }
 
 article > h1 {
 	font-family: 'Lexend', sans-serif;
@@ -227,8 +220,8 @@ article h1 a:hover { color: inherit; text-decoration: none; }
 	background-size: 10px 10px;
 	pointer-events: none;
 }
-.button::before { left: -1px; }
-.button::after  { right: -1px; transform: scaleX(-1); }
+.button::before { left:  -1px; transform: scale(-1); }
+.button::after  { right: -1px; transform: scaleY(-1); }
 .button:hover { filter: brightness(1.15); color: #1a0e00; text-decoration: none; }
 
 /* ---- Pagination -------------------------------------------- */
@@ -251,4 +244,5 @@ article h1 a:hover { color: inherit; text-decoration: none; }
 	article { padding: 20px 18px; }
 	article > h1 { margin: -20px -18px 20px; font-size: 1.25em; }
 	header nav ul li a { padding: 11px 12px; font-size: 0.8em; }
+	header #logo img { max-height: 120px; }
 }
