@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#15243a">
-<link rel="stylesheet" href="style.css" />
-<title>Hytale - Sweden Mayhem</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#15243a">
+	<link rel="stylesheet" href="style.css" />
+	<title>Hytale - Sweden Mayhem</title>
 </head>
 <body>
-<header>
-id="logo">
-href="/">
-src="https://www.hytale.com/static/images/logo.png" alt="Hytale" />
- class="site-title">Sweden Mayhem</span>
- class="site-subtitle">Hytale Server</span>
-av>
-class="active"><a href="index">Welcome</a></li>
+	<header>
+		<div id="logo">
+			<a href="/">
+				<img src="https://www.hytale.com/static/images/logo.png" alt="Hytale" />
+				<span class="site-title">Sweden Mayhem</span>
+				<span class="site-subtitle">Hytale Server</span>
+			</a>
+		</div>
+		<nav>
+			<ul>
+				<li class="active"><a href="index">Welcome</a></li>
 <% for(const page of pages){ %>
-href="<%= page.name %>"><%= page.title %></a></li>
+				<li><a href="<%= page.name %>"><%= page.title %></a></li>
 <% } %>
 <% for(const section of sections) if(section.hasIndex) { %>
-href="<%= section.name %>/"><%= section.title %></a></li>
+				<li><a href="<%= section.name %>/"><%= section.title %></a></li>
 <% } %>
-av>
-</header>
+			</ul>
+		</nav>
+	</header>
 
-<article>
+	<article>
 <%~ currentPage.html %>
-</article>
+	</article>
 </body>
 </html>
