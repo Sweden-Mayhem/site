@@ -40,7 +40,7 @@
    }
 
    header #logo img {
-        max-height: 25em;
+        max-height: 35em;
         max-width: 80%;
         filter: drop-shadow(0 4px 24px #00000099);
         transition: filter 0.15s;
