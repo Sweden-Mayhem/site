@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#15243a">
-<link rel="stylesheet" href="../style.css" />
-<title>Hytale - Sweden Mayhem &gt; News</title>
-<style>
-{ min-height: 0; }
-</style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#15243a">
+	<link rel="stylesheet" href="../style.css" />
+	<title>Hytale - Sweden Mayhem &gt; News</title>
+	<style>article { min-height: 0; }</style>
 </head>
 <body>
-<header>
-id="logo">
-href="/">
-src="https://www.hytale.com/static/images/logo.png" alt="Hytale" />
- class="site-title">Sweden Mayhem</span>
- class="site-subtitle">Hytale Server</span>
-av>
-href="../">Welcome</a></li>
+	<header>
+		<div id="logo">
+			<a href="/">
+				<img src="https://www.hytale.com/static/images/logo.png" alt="Hytale" />
+				<span class="site-title">Sweden Mayhem</span>
+				<span class="site-subtitle">Hytale Server</span>
+			</a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="../">Welcome</a></li>
 <% for(const page of parentSection.contentPages){ %>
-href="../<%= page.name %>"><%= page.title %></a></li>
+				<li><a href="../<%= page.name %>"><%= page.title %></a></li>
 <% } %>
 <% for(const section of parentSection.sections) if(section.hasIndex) { %>
-<%~ section.name=='news'?'class="active"':'' %>><a href="../<%= section.name %>/"><%= section.title %></a></li>
+				<li <%~ section.name=='news'?'class="active"':'' %>><a href="../<%= section.name %>/"><%= section.title %></a></li>
 <% } %>
-av>
-</header>
+			</ul>
+		</nav>
+	</header>
 
 <% for(const page of [...pages].reverse()){ %>
-<article>
-page.htmlSummary.replace('<h1>', '<h1><a href="'+page.name+'">').replace('</h1>', '</a></h1>') %>
-href="<%= page.name %>">Read more...</a>
-</article>
+	<article>
+		<%~ page.htmlSummary.replace('<h1>', '<h1><a href="'+page.name+'">').replace('</h1>', '</a></h1>') %>
+		<a href="<%= page.name %>">Read more...</a>
+	</article>
 <% } %>
 </body>
 </html>
