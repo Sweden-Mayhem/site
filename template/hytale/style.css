@@ -30,6 +30,12 @@
 
    header { overflow: hidden; }
 
+   @keyframes logo-float {
+      0%   { transform: translateY(0); }
+      40%  { transform: translateY(-12px); }
+      100% { transform: translateY(0); }
+   }
+
    header #logo {
         margin: 2em 0 1.5em;
         text-align: center;
@@ -44,6 +50,7 @@
         max-width: 80%;
         filter: drop-shadow(0 4px 24px #00000099);
         transition: filter 0.15s;
+        animation: logo-float 8s ease-in-out infinite;
    }
 
    header #logo a:hover img {
