@@ -30,8 +30,10 @@
 	</header>
 
 <% for(const page of [...pages].reverse()){ %>
+<% const dm = page.name.match(/^(\d{4})-(\d{2})-(\d{2})-(\d{2})(\d{2})(\d{2})$/); %>
+<% const pageDate = dm ? `${dm[1]}-${dm[2]}-${dm[3]} ${dm[4]}:${dm[5]}:${dm[6]}` : page.name; %>
 	<article>
-		<%~ page.htmlSummary.replace('<h1>', '<h1><a href="'+page.name+'">').replace('</h1>', '</a></h1><p class="post-date">'+page.name+'</p>') %>
+		<%~ page.htmlSummary.replace('<h1>', '<h1><a href="'+page.name+'">').replace('</h1>', '</a><span class="post-date">'+pageDate+'</span></h1>') %>
 		<a href="<%= page.name %>">Read more...</a>
 	</article>
 <% } %>
