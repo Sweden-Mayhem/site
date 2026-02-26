@@ -1,7 +1,4 @@
-# Sweden Mayhem
-
-Sweden Mayhem is not what the name suggests.
-
+The Sweden Mayhem Hytale server is not what the name suggests.\
 There is no anarchy here, no chaos. It is structured, stable, and built for the long term.
 
 ---
@@ -13,9 +10,7 @@ Instanced loot per player. Long-term progression for builders and explorers. Opt
 ---
 
 Every Friday morning, all Wilderness outside claimed land is restored.
-
-What you build remains.
-
+What you build remains.\
 Nature heals, bringing fresh resources and loot.
 
 ---
@@ -24,6 +19,7 @@ The server infrastructure is hand-coded in-house, built specifically for this wo
 
 ---
 
-Originally made for Swedish players. Everyone is welcome.
+Originally made for Swedish players.\
+Everyone is welcome.
 
 [Latest News »](/hytale/news/)
