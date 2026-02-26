@@ -29,17 +29,18 @@
 	</header>
 
 	<article>
-<%~ currentPage.html %>
+<% const fmtDate = name => { const m = name.match(/^(\d{4})-(\d{2})-(\d{2})-(\d{2})(\d{2})(\d{2})$/); return m ? `${m[1]}-${m[2]}-${m[3]} ${m[4]}:${m[5]}:${m[6]}` : name; }; %>
+<%~ currentPage.html.replace('</h1>', '<span class="post-date">'+fmtDate(currentPage.name)+'</span></h1>') %>
 	</article>
 
 	<div class="pagination">
 		<a class="button" href="./">All news</a>
 		<div class="spacer"></div>
 <% if(currentPage.previousPage){ %>
-		<a class="button" href="<%= currentPage.previousPage.name %>">Previous: <%= currentPage.previousPage.name %></a>
+		<a class="button" href="<%= currentPage.previousPage.name %>">← <%= fmtDate(currentPage.previousPage.name) %></a>
 <% } %>
 <% if(currentPage.nextPage){ %>
-		<a class="button" href="<%= currentPage.nextPage.name %>">Next: <%= currentPage.nextPage.name %></a>
+		<a class="button" href="<%= currentPage.nextPage.name %>"><%= fmtDate(currentPage.nextPage.name) %> →</a>
 <% } %>
 	</div>
 </body>
