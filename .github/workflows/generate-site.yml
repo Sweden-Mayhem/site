@@ -41,4 +41,17 @@ jobs:
     needs: build
     steps:
       - name: deploying to github pages
+        id: deploy1
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: deploying to github pages - RETRY (2/3)
+        id: deploy2
+        if: steps.deploy1.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: deploying to github pages - RETRY (3/3)
+        id: deploy3
+        if: steps.deploy2.outcome == 'failure'
         uses: actions/deploy-pages@v4
