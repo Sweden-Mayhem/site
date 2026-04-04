@@ -8,7 +8,7 @@ Share your best moments from Sweden Mayhem! Your screenshots may be featured in 
 
 1. Press **F8** to hide the GUI
 2. Line up your shot
-3. Press **Print Screen** (or your screenshot key)
+3. Press **F12** to take a screenshot
 4. Press **F8** again to bring the GUI back
 5. Upload your screenshot below!
 
@@ -44,7 +44,7 @@ document.getElementById('upload-form').addEventListener('submit', async function
   fd.append('username', username);
   fd.append('file', file);
   try {
-    var resp = await fetch('http://95.141.241.204:5580/api/screenshot', { method: 'POST', body: fd });
+    var resp = await fetch('https://hytale.swedenmayhem.se/api/screenshot', { method: 'POST', body: fd });
     var data = await resp.json();
     if (data.success) {
       status.innerHTML = '<span style="color:#55ff55">' + data.message + '</span>';
