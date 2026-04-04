@@ -1,4 +1,4 @@
-# Screenshots
+# Submissions
 
 Share your best moments from Sweden Mayhem! Your screenshots may be featured in our weekly news.
 
