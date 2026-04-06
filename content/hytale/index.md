@@ -22,4 +22,8 @@ The server infrastructure is hand-coded in-house, built specifically for this wo
 Originally made for Swedish players.\
 Everyone is welcome.
 
-[Latest News »](/hytale/news/)
+---
+
+**Server address:** `hytale.swedenmayhem.se`
+
+[How to join »](/hytale/play) | [Latest News »](/hytale/news/) | [Live Map »](/hytale/map)
