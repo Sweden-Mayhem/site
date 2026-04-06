@@ -225,7 +225,12 @@
         );
         box-shadow: 0 0 6px #e8950a66;
    }
-   article img { max-width: 100%; border-radius: 2px; }
+   article img {
+        max-width: 100%;
+        border-radius: 6px;
+        box-shadow: 0 4px 24px #00000088;
+        border: 1px solid #2f4a6a44;
+   }
    article ul, article ol { color: #b5c7d4; line-height: 1.75; }
    article strong { color: #d1dde4; }
 

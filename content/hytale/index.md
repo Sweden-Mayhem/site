@@ -3,9 +3,24 @@ There is no anarchy here, no chaos. It is structured, stable, and built for the 
 
 ---
 
+![A dungeon throne room on Sweden Mayhem](/hytale/images/screenshot-dungeon.jpg)
+
+---
+
 The experience stays true to vanilla Hytale while weaving in custom systems, mechanics, and items, integrated into the core gameplay rather than layered on top. New content surfaces naturally as you progress, expanding the experience over time instead of front-loading you at the start.
 
 Instanced loot per player. Long-term progression for builders and explorers. Optional endgame content for those who choose to push further. Mysteries to uncover and systems to master.
+
+---
+
+## What You Get
+
+- **RPG Skill Trees** with combat, crafting, and exploration paths
+- **Instanced Dungeons** with unique loot and boss mechanics
+- **Custom Economy** with merchants, trading, and rare collectibles
+- **Claim System** to protect your builds permanently
+- **Weekly Wilderness Reset** every Friday morning for fresh resources
+- **50+ Custom Mods** carefully balanced and integrated
 
 ---
 
