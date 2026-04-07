@@ -1,6 +1,8 @@
 The Sweden Mayhem Hytale server is not what the name suggests.\
 There is no anarchy here, no chaos. It is structured, stable, and built for the long term.
 
+### Connect: `hytale.swedenmayhem.se`
+
 ---
 
 ![A dungeon throne room on Sweden Mayhem](/hytale/images/screenshot-dungeon.jpg)
