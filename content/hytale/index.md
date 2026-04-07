@@ -21,6 +21,8 @@ Instanced loot per player. Long-term progression for builders and explorers. Opt
 - **Claim System** to protect your builds permanently
 - **Weekly Wilderness Reset** every Friday morning for fresh resources
 - **50+ Custom Mods** carefully balanced and integrated
+- **Proximity Voice Chat** to talk with nearby players in-world
+- **Active Development** with regular updates, bug fixes, and new content
 
 ---
 
@@ -42,3 +44,5 @@ Everyone is welcome.
 **Server address:** `hytale.swedenmayhem.se`
 
 [How to join »](/hytale/play) | [Latest News »](/hytale/news/) | [Live Map »](/hytale/map)
+
+Like the server? [Vote for us »](https://hytaleserverlist.me/server/sweden.mayhem.62553) to help more players find us.
