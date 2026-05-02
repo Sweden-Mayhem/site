@@ -242,3 +242,47 @@ article {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
+
+/* ---- Footer -------------------------------------------- */
+
+footer {
+	margin-top: 2em;
+	padding: 1.5em 20px;
+	background: rgba(0,0,0,0.6);
+	border-top: 2px solid #444;
+}
+
+footer .footer-nav {
+	max-width: calc(min(900px, 100vw - 20px));
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 1.5em;
+}
+
+footer .footer-section h3 {
+	font-size: 0.95em;
+	color: #ddd;
+	margin: 0 0 0.5em;
+}
+
+footer .footer-section ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer .footer-section li { margin: 0.3em 0; }
+
+footer .footer-section a {
+	color: #adf;
+	font-size: 0.9em;
+}
+
+footer .footer-section a:hover { color: #fff; text-decoration: underline; }
+
+footer .footer-section p {
+	font-size: 0.85em;
+	color: #aaa;
+	margin: 0.3em 0;
+}

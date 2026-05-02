@@ -32,5 +32,22 @@
 	<article>
 <%~ currentPage.html %>
 	</article>
+
+	<footer>
+		<nav class="footer-nav">
+			<div class="footer-section">
+				<h3>Navigation</h3>
+				<ul>
+					<li><a href="/">Home</a></li>
+<% for(const section of sections) if(section.hasIndex) { %>
+					<li><a href="/<%= section.name %>"><%= section.title %></a></li>
+<% } %>
+				</ul>
+			</div>
+			<div class="footer-section">
+				<p>&copy; 2026 Sweden Mayhem. All rights reserved.</p>
+			</div>
+		</nav>
+	</footer>
 </body>
 </html>
