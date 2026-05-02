@@ -286,6 +286,62 @@ article h1 a:hover {
 	margin: 0;
 }
 
+/* ── Footer ────────────────────────────────────── */
+
+footer {
+	margin-top: 3em;
+	padding: 2em 20px 1.5em;
+	border-top: 1px solid #3d2f5c;
+	background: linear-gradient(180deg, rgba(30,20,60,0.5) 0%, rgba(20,10,40,0.8) 100%);
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+}
+
+footer .footer-nav {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 2em;
+}
+
+footer .footer-section h3 {
+	font-family: 'Outfit', sans-serif;
+	font-size: 1.1em;
+	margin: 0 0 1em;
+	color: #e9d5ff;
+}
+
+footer .footer-section ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer .footer-section li {
+	margin: 0.5em 0;
+}
+
+footer .footer-section a {
+	color: #c084fc;
+	font-size: 0.95em;
+	font-weight: 500;
+}
+
+footer .footer-section a:hover {
+	color: #e9d5ff;
+}
+
+footer .footer-section p {
+	margin: 0.5em 0;
+	font-size: 0.9em;
+	color: #a89fc9;
+}
+
 /* ── Responsive ────────────────────────────────── */
 
 @media (max-width: 640px) {
