@@ -1,6 +1,6 @@
 # Sweden Mayhem Website
 
-Static site generator for the Sweden Mayhem website. Builds markdown content into HTML using Deno, published to GitHub Pages.
+Static site generator for the Sweden Mayhem website. Builds markdown content into HTML using Deno, published to GitHub Pages and the hytale.swedenmayhem.se VPS.
 
 ## Tech Stack
 
@@ -129,7 +129,7 @@ To add a new top-level section (e.g., `events/`):
 
 1. Create the directory:
    ```bash
-   mkdir -p content/community
+   mkdir -p content/events
    ```
 
 2. Create `index.md` (becomes the section's main page):
@@ -139,7 +139,7 @@ To add a new top-level section (e.g., `events/`):
 
 3. Create section template (optional for custom styling):
    ```bash
-   mkdir -p template/community
+   mkdir -p template/events
    cp template/page.html template/events/page.html
    ```
 
