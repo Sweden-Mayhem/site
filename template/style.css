@@ -93,8 +93,7 @@ header nav {
 	box-shadow: 0 4px 32px #00000066;
 }
 
-header nav ul,
-footer nav ul {
+header nav ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -104,13 +103,11 @@ footer nav ul {
 	gap: 2px;
 }
 
-header nav ul li,
-footer nav ul li {
+header nav ul li {
 	margin: 0;
 }
 
-header nav ul li a,
-footer nav ul li a {
+header nav ul li a {
 	display: inline-block;
 	color: #9e7fc0;
 	padding: 9px 22px;
@@ -122,19 +119,37 @@ footer nav ul li a {
 	transition: color 0.15s, background 0.15s;
 }
 
-header nav ul li a:hover,
-footer nav ul li a:hover {
+footer nav ul li a {
+	color: #9e7fc0;
+	font-size: 0.82em;
+	font-weight: 600;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	transition: color 0.15s;
+}
+
+header nav ul li a:hover {
 	color: #f3e8ff;
 	background: #3b1270;
 	text-decoration: none;
 }
 
+footer nav ul li a:hover {
+	color: #f3e8ff;
+	text-decoration: none;
+}
+
 header nav ul li.active a,
-header nav ul li.active a:hover,
-footer nav ul li.active a,
-footer nav ul li.active a:hover {
+header nav ul li.active a:hover {
 	color: #f3e8ff;
 	background: #7c3aed;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+footer nav ul li.active a,
+footer nav ul li.active a:hover {
+	color: #c084fc;
 	font-weight: 700;
 	text-decoration: none;
 }
