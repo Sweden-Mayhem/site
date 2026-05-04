@@ -59,7 +59,7 @@ document.getElementById('upload-form').addEventListener('submit', async function
   fd.append('player', player);
   fd.append('file', file);
   try {
-    var resp = await fetch('/api/upload', { method: 'POST', body: fd });
+    var resp = await fetch('https://hytale.swedenmayhem.se/api/upload', { method: 'POST', body: fd });
     var data = await resp.json();
     if (resp.status === 201) {
       status.innerHTML = '<span style="color:#55ff55">Uploaded! Screenshot is pending review.</span>';
@@ -78,18 +78,20 @@ document.getElementById('upload-form').addEventListener('submit', async function
 async function loadGallery() {
   var el = document.getElementById('gallery');
   try {
-    var resp = await fetch('/api/screenshots?status=approved');
+    var resp = await fetch('https://hytale.swedenmayhem.se/api/screenshots?status=approved');
     var data = await resp.json();
     if (!data.screenshots || data.screenshots.length === 0) {
       el.innerHTML = '<p style="color:#5a7a94;grid-column:1/-1">No screenshots yet. Be the first to submit one!</p>';
       return;
     }
+    var API_HOST = 'https://hytale.swedenmayhem.se';
     el.innerHTML = data.screenshots.map(function(s) {
       var player = s.player || 'unknown';
       var date = new Date(s.uploaded_at).toLocaleDateString();
+      var url = API_HOST + s.url;
       return '<div style="background:#15243a;border:2px solid #2f4a6a;border-radius:6px;overflow:hidden">' +
-        '<a href="' + s.url + '" target="_blank">' +
-        '<img src="' + s.url + '" alt="Screenshot by ' + player + '" style="width:100%;height:200px;object-fit:cover;display:block;border:none;box-shadow:none;border-radius:0">' +
+        '<a href="' + url + '" target="_blank">' +
+        '<img src="' + url + '" alt="Screenshot by ' + player + '" style="width:100%;height:200px;object-fit:cover;display:block;border:none;box-shadow:none;border-radius:0">' +
         '</a>' +
         '<div style="padding:8px 12px">' +
         '<span style="color:#b7cedd;font-weight:600">' + player + '</span>' +
