@@ -79,8 +79,7 @@ header #logo a:hover img {
 
 /* ── Nav ───────────────────────────────────────── */
 
-header nav,
-footer nav {
+header nav {
 	margin: 0 auto 0;
 	max-width: calc(min(900px, 100vw - 20px));
 	text-align: center;
@@ -131,8 +130,8 @@ footer nav ul li a:hover {
 }
 
 header nav ul li.active a,
-footer nav ul li.active a,
 header nav ul li.active a:hover,
+footer nav ul li.active a,
 footer nav ul li.active a:hover {
 	color: #f3e8ff;
 	background: #7c3aed;
