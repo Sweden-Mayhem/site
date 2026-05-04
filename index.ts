@@ -213,7 +213,7 @@ async function generate_site() {
 
 async function copy_assets() {
 	if(!await get_stat('output')){
-		await Deno.mkdir('output');
+		await Deno.mkdir('output', {recursive: true});
 	}
 
 	async function copy_dir(readPath:string, writePath:string) {
@@ -225,7 +225,7 @@ async function copy_assets() {
 				if(entry.name.match(/\.html$/)) continue; // skip template files
 
 				if(!await get_stat(writePath)){
-					await Deno.mkdir(writePath);
+					await Deno.mkdir(writePath, {recursive: true});
 				}
 
 				await Deno.copyFile(`${readPath}/${entry.name}`, `${writePath}/${entry.name}`);
