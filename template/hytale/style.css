@@ -232,6 +232,52 @@
         font-style: italic;
    }
 
+   /* ---- Feature Grid -------------------------------------------- */
+
+   .feature-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        margin: 1.5em 0;
+   }
+
+   .feature-card {
+        background: linear-gradient(180deg, #1a2d4a 0%, #101e30 100%);
+        border: 1px solid #2f4a6a;
+        border-radius: 8px;
+        padding: 24px 20px;
+        text-align: center;
+        box-shadow: 0 4px 16px #00000044;
+   }
+
+   .feature-card .feature-icon {
+        display: block;
+        margin: 0 auto 12px;
+        image-rendering: pixelated;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+   }
+
+   .feature-card h4 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.05em;
+        color: #e8b84b;
+        margin: 0 0 6px;
+        text-shadow: 0 0 12px #e8950a44;
+   }
+
+   .feature-card p {
+        margin: 0;
+        font-size: 0.88em;
+        color: #8aa8c0;
+        line-height: 1.5;
+   }
+
+   @media (max-width: 640px) {
+        .feature-grid { grid-template-columns: 1fr; }
+   }
+
    article p { margin: 0.75em 0; line-height: 1.7; color: #b5c7d4; }
    article hr {
         border: none;
