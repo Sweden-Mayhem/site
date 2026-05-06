@@ -17,14 +17,56 @@ Instanced loot per player. Long-term progression for builders and explorers. Opt
 
 ## What You Get
 
-- **RPG Skill Trees** with combat, crafting, and exploration paths
-- **Instanced Dungeons** with unique loot and boss mechanics
-- **Custom Economy** with merchants, trading, and rare collectibles
-- **Claim System** to protect your builds permanently
-- **Weekly Wilderness Reset** every Friday morning for fresh resources
-- **50+ Custom Mods** carefully balanced and integrated
-- **Proximity Voice Chat** to talk with nearby players in-world
-- **Active Development** with regular updates, bug fixes, and new content
+<div class="feature-grid">
+
+<div class="feature-card">
+<img src="/hytale/images/stone-sword.png" alt="" class="feature-icon" width="48" height="48">
+<h4>RPG Skill Trees</h4>
+<p>with combat, crafting, and exploration paths</p>
+</div>
+
+<div class="feature-card">
+<img src="/hytale/images/key-icon.png" alt="" class="feature-icon" width="48" height="48">
+<h4>Instanced Dungeons</h4>
+<p>with unique loot and boss mechanics</p>
+</div>
+
+<div class="feature-card">
+<img src="/hytale/images/potion-bottle.png" alt="" class="feature-icon" width="48" height="48">
+<h4>Custom Economy</h4>
+<p>with merchants, trading, and rare collectibles</p>
+</div>
+
+<div class="feature-card">
+<img src="/hytale/images/shield-icon.png" alt="" class="feature-icon" width="48" height="48">
+<h4>Claim System</h4>
+<p>to protect your builds permanently</p>
+</div>
+
+<div class="feature-card">
+<h4>Weekly Wilderness Reset</h4>
+<p>every Friday morning for fresh resources</p>
+</div>
+
+<div class="feature-card">
+<img src="/hytale/images/gear-icon.png" alt="" class="feature-icon" width="48" height="48">
+<h4>50+ Custom Mods</h4>
+<p>carefully balanced and integrated</p>
+</div>
+
+<div class="feature-card">
+<img src="/hytale/images/headset-icon.png" alt="" class="feature-icon" width="48" height="48">
+<h4>Proximity Voice Chat</h4>
+<p>to talk with nearby players in-world</p>
+</div>
+
+<div class="feature-card">
+<img src="/hytale/images/hammer-icon.png" alt="" class="feature-icon" width="48" height="48">
+<h4>Active Development</h4>
+<p>with regular updates, bug fixes, and new content</p>
+</div>
+
+</div>
 
 ---
 
