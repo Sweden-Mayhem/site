@@ -2,7 +2,13 @@ The Sweden Mayhem Dark Ages server is our own take on an old classic.
 
 Built on the bones of Dark Ages, rebuilt to run on our own client and our own server, and kept alive for friends and anyone who wants to wander Temuair again.
 
-### Play with our custom client
+### Read this first
+
+This is an early, in-progress world. Plenty works, plenty does not, and we would rather you knew that going in. Start with our status page so you know exactly where we are before you make a character.
+
+<a href="/darkages/status" class="button">What works (and what doesn't)</a>
+
+### Then play with our custom client
 
 You will not find us on the official servers. Sweden Mayhem runs its own world, and you reach it through our client. Grab it below and you are one double-click away from Mileth.
 
@@ -27,4 +33,4 @@ This is a work in progress, run by people who do it for fun. Some corners are ro
 
 ---
 
-[How to play »](/darkages/play) | [What works »](/darkages/status) | [Latest news »](/darkages/news/)
+[What works »](/darkages/status) | [How to play »](/darkages/play) | [Latest news »](/darkages/news/)
