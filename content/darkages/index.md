@@ -10,7 +10,7 @@ This is an early, in-progress world. Plenty works, plenty does not, and we would
 
 ### Then play with our custom client
 
-You will not find us on the official servers. Sweden Mayhem runs its own world, and you reach it through our client. Grab it below and you are one double-click away from Mileth.
+You will not find us on the official servers. Sweden Mayhem runs its own world, and you reach it through our own client, which we are rebuilding to be more modern. Grab it below and you are one double-click away from Mileth.
 
 <a href="/darkages/play" class="button">How to Play</a>
 

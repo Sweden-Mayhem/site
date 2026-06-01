@@ -34,6 +34,12 @@ Our yardstick is simple. A thing is "working" only when it behaves the way you r
 
 ---
 
+## The client
+
+You play through our own client, not the official one, and we are actively rebuilding it to be more modern. It already runs at any window size with a cleaner interface, and it runs happily under Wine on Linux and Mac. This is its own ongoing project alongside the world rebuild, so expect it to keep improving from one release to the next.
+
+---
+
 ## How to read this
 
 Think of the whole game as a checklist that runs from your first step in the tutorial to the deepest endgame. We are walking it in order, turning "not yet" into "working" as we go. When something is rough, it is on the list, and we will get to it.
