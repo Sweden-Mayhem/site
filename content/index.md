@@ -1,5 +1,12 @@
 # Sweden Mayhem
-A gaming community. Two servers. Built to last.
+A gaming community. Three servers. Built to last.
+
+---
+
+## Dark Ages Server
+Our own rebuild of the classic Dark Ages, running on a custom client and server. Towns, dungeons, shops, and monsters, hand-imported and stitched back together. Early days, plenty of mayhem.
+
+<a href="/darkages" class="button">Enter Dark Ages</a>
 
 ---
 
@@ -17,4 +24,4 @@ Sweden Mayhem's Minecraft community. Same standards, different world.
 
 ---
 
-Both servers are live and actively maintained. Infrastructure is hand-coded in-house.
+All servers are live and actively maintained. Infrastructure is hand-coded in-house.

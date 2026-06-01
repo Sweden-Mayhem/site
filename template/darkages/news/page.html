@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/style.css" />
+	<link rel="icon" href="/favicon.png" type="image/png" />
+	<title>Dark Ages - News - <%= currentPage.title %></title>
+</head>
+<body>
+	<header>
+		<div id="logo"><a href="/"><img src="/logo.png" alt="Sweden Mayhem" /></a></div>
+		<nav>
+			<ul>
+				<li><a href="/darkages/">Welcome</a></li>
+<% for(const page of parentSection.contentPages){ %>
+				<li><a href="/darkages/<%= page.name %>"><%= page.title %></a></li>
+<% } %>
+				<li class="active"><a href="/darkages/news/">News</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+<%~ currentPage.html %>
+		<p><a href="/darkages/news/">&laquo; Back to news</a></p>
+	</article>
+	<footer><nav class="footer-nav"><div class="footer-section"><p>&copy; 2026 Sweden Mayhem.</p></div></nav></footer>
+</body>
+</html>
