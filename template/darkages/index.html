@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#0a0d0a">
+	<meta name="description" content="Sweden Mayhem Dark Ages: our own rebuild of the classic Dark Ages, on a custom client and server. Towns, dungeons, shops, and monsters. Download and play.">
+	<meta property="og:title" content="Sweden Mayhem - Dark Ages">
+	<meta property="og:description" content="Our own rebuild of the classic Dark Ages, on a custom client and server. Download and play.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://swedenmayhem.se/darkages">
+	<meta property="og:image" content="https://swedenmayhem.se/logo.png">
+	<link rel="canonical" href="https://swedenmayhem.se/darkages">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" href="/favicon.png" type="image/png" />
+	<title>Sweden Mayhem - Dark Ages</title>
+</head>
+<body>
+	<header>
+		<a href="/" class="home-logo"><img src="/logo.png" alt="Sweden Mayhem" /></a>
+		<h1 class="wordmark">Dark Ages</h1>
+		<p class="tagline">A Sweden Mayhem World</p>
+		<nav>
+			<ul>
+				<li class="active"><a href="/darkages/">Welcome</a></li>
+<% for(const page of pages){ if(page.name=='index') continue; %>
+				<li><a href="<%= page.name %>"><%= page.title %></a></li>
+<% } %>
+<% for(const section of sections) if(section.hasIndex) { %>
+				<li><a href="<%= section.name %>/"><%= section.title %></a></li>
+<% } %>
+			</ul>
+		</nav>
+	</header>
+	<article>
+<%~ currentPage.html %>
+	</article>
+	<footer>
+		<p><a href="/">Sweden Mayhem</a> &middot; &copy; 2026</p>
+	</footer>
+</body>
+</html>

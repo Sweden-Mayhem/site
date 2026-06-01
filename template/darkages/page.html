@@ -6,7 +6,7 @@
 	<meta name="theme-color" content="#0a0d0a">
 	<meta property="og:title" content="Sweden Mayhem - Dark Ages - <%= currentPage.title %>">
 	<meta property="og:image" content="https://swedenmayhem.se/logo.png">
-	<link rel="stylesheet" href="/darkages/style.css" />
+	<link rel="stylesheet" href="style.css" />
 	<link rel="icon" href="/favicon.png" type="image/png" />
 	<title>Sweden Mayhem - Dark Ages - <%= currentPage.title %></title>
 </head>
@@ -14,21 +14,24 @@
 	<header>
 		<a href="/darkages/" class="home-logo"><img src="/logo.png" alt="Sweden Mayhem" /></a>
 		<h1 class="wordmark">Dark Ages</h1>
-		<p class="tagline">News from the Realm</p>
+		<p class="tagline">A Sweden Mayhem World</p>
 		<nav>
 			<ul>
 				<li><a href="/darkages/">Welcome</a></li>
-<% for(const page of parentSection.contentPages){ %>
-				<li><a href="/darkages/<%= page.name %>"><%= page.title %></a></li>
+<% for(const page of pages){ if(page.name=='index') continue; %>
+				<li <%~ currentPage.name==page.name?'class="active"':'' %>><a href="<%= page.name %>"><%= page.title %></a></li>
 <% } %>
-				<li class="active"><a href="/darkages/news/">News</a></li>
+<% for(const section of sections) if(section.hasIndex) { %>
+				<li><a href="<%= section.name %>/"><%= section.title %></a></li>
+<% } %>
 			</ul>
 		</nav>
 	</header>
 	<article>
 <%~ currentPage.html %>
-		<p><a href="/darkages/news/">&laquo; Back to all news</a></p>
 	</article>
-	<footer><p><a href="/">Sweden Mayhem</a> &middot; &copy; 2026</p></footer>
+	<footer>
+		<p><a href="/">Sweden Mayhem</a> &middot; &copy; 2026</p>
+	</footer>
 </body>
 </html>

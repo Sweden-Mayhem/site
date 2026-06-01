@@ -3,16 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta property="og:title" content="Sweden Mayhem - Dark Ages News">
-	<meta property="og:description" content="News and updates for the Sweden Mayhem Dark Ages server.">
-	<link rel="stylesheet" href="/style.css" />
+	<meta name="theme-color" content="#0a0d0a">
+	<meta property="og:title" content="Sweden Mayhem - Dark Ages - News">
+	<meta property="og:image" content="https://swedenmayhem.se/logo.png">
+	<link rel="stylesheet" href="/darkages/style.css" />
 	<link rel="icon" href="/favicon.png" type="image/png" />
-	<title>Dark Ages - News</title>
-	<style>article { min-height: 0; }</style>
+	<title>Sweden Mayhem - Dark Ages - News</title>
+	<style>article { margin-bottom: 1.4em; }</style>
 </head>
 <body>
 	<header>
-		<div id="logo"><a href="/"><img src="/logo.png" alt="Sweden Mayhem" /></a></div>
+		<a href="/darkages/" class="home-logo"><img src="/logo.png" alt="Sweden Mayhem" /></a>
+		<h1 class="wordmark">Dark Ages</h1>
+		<p class="tagline">News from the Realm</p>
 		<nav>
 			<ul>
 				<li><a href="/darkages/">Welcome</a></li>
@@ -27,10 +30,10 @@
 <% const dm = page.name.match(/^(\d{4})-(\d{2})-(\d{2})-(\d{2})(\d{2})(\d{2})$/); %>
 <% const pageDate = dm ? `${dm[1]}-${dm[2]}-${dm[3]}` : ''; %>
 	<article>
-		<%~ page.htmlSummary.replace('<h1>', '<h1><a href="'+page.name+'">').replace('</h1>', '</a> <span class="post-date">'+pageDate+'</span></h1>') %>
-		<a href="<%= page.name %>">Read more...</a>
+		<%~ page.htmlSummary.replace('<h1>', '<h1><a href="'+page.name+'">').replace('</h1>', '</a><span class="post-date">'+pageDate+'</span></h1>') %>
+		<p><a href="<%= page.name %>">Read more &raquo;</a></p>
 	</article>
 <% } %>
-	<footer><nav class="footer-nav"><div class="footer-section"><p>&copy; 2026 Sweden Mayhem.</p></div></nav></footer>
+	<footer><p><a href="/">Sweden Mayhem</a> &middot; &copy; 2026</p></footer>
 </body>
 </html>
