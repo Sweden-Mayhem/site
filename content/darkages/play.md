@@ -21,7 +21,7 @@ No problem. The client is built for Windows, but we make sure every build runs p
 ## Getting in
 
 1. Unzip the folder anywhere you like
-2. Open **Chaos.Client.exe**
+2. Open **da-swm.exe**
 3. Make a character, or log in if you already have one
 4. You wake up in the Mileth Inn. Welcome back.
 
