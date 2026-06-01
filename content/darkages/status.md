@@ -18,7 +18,7 @@ Our yardstick is simple. A thing is "working" only when it behaves the way you r
 
 ## Being worked on
 
-- The tutorial. It gets you into the world, but it is not the real Temuair tutorial yet. The proper building, the teachers, the Tutorial Book, and the training quest are all still to come.
+- The tutorial. It gets you into the world, and it is finally a safe place to learn to fight: the training dummies stand still to be practiced on, the floppies hop about the field the way they always did, and none of them turn around and beat up a brand new character anymore. Still to come are the proper tutorial building, the teachers (Raghnall, Bartley, Myles, Gerard, Riona), the Tutorial Book, and the first floppy quest.
 - Monster stats and behavior, being tuned to feel like the old days rather than guesses.
 - Mileth itself. The shops work, but the townsfolk, their quests, and the inn still need their real roles.
 
