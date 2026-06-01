@@ -13,14 +13,16 @@ Our yardstick is simple. A thing is "working" only when it behaves the way you r
 - Learning skills and spells from the Mileth trainer
 - Choosing your path (Warrior, Rogue, Wizard, Priest, Monk) once you reach level five
 - Fighting monsters, taking loot, and gaining levels
+- Waking in the Mileth Inn when you leave the tutorial, where Riona the innkeeper greets you
+- Having Riona record your mundane birth, the town and the day you were born, onto your legend
 
 ---
 
 ## Being worked on
 
-- The tutorial. It gets you into the world, and it is finally a safe place to learn to fight: the training dummies stand still to be practiced on, the floppies hop about the field the way they always did, and none of them turn around and beat up a brand new character anymore. Still to come are the proper tutorial building, the teachers (Raghnall, Bartley, Myles, Gerard, Riona), the Tutorial Book, and the first floppy quest.
+- The tutorial. It gets you into the world, and it is finally a safe place to learn to fight: the training dummies stand still to be practiced on, the floppies hop about the field the way they always did, and none of them turn around and beat up a brand new character anymore. When you finish you now wake up inside the Mileth Inn, the way you should. Still to come are the proper tutorial building, the teachers (Raghnall, Bartley, Myles, Gerard), the Tutorial Book, and the first floppy quest.
 - Monster stats and behavior, being tuned to feel like the old days rather than guesses.
-- Mileth itself. The shops work, but the townsfolk, their quests, and the inn still need their real roles.
+- Mileth itself. The shops work and the inn now has its innkeeper, Riona, doing her real job. Still to come are the townsfolk with their own lines and quests, and Artur's long road.
 
 ---
 
