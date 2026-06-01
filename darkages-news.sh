@@ -10,6 +10,6 @@ ts=$(date +%Y-%m-%d-%H%M%S)
 f="content/darkages/news/$ts.md"
 printf '# %s\n\n%s\n' "$1" "$2" > "$f"
 git add "$f"
-git commit -q -m "darkages: news - $1"
+git -c user.name="Robin C." -c user.email="hezkore@gmail.com" commit -q -m "darkages: news - $1"
 git push -q
 echo "published: $f"

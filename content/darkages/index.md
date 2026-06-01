@@ -23,8 +23,8 @@ A big piece of the old world, hand-imported and stitched back together. Towns, d
 
 ## Fair warning
 
-This is a work in progress, run by people who do it for fun. Some corners are rough and some systems are half built. If something looks broken it probably is, and we will get to it. That is half the charm.
+This is a work in progress, run by people who do it for fun. Some corners are rough and some systems are half built. If something looks broken it probably is, and we will get to it. That is half the charm. You can follow along on our [status page](/darkages/status), which lists what works, what we are building, and what is still to come.
 
 ---
 
-[How to play »](/darkages/play) | [Latest news »](/darkages/news/)
+[How to play »](/darkages/play) | [What works »](/darkages/status) | [Latest news »](/darkages/news/)
