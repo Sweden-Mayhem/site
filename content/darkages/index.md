@@ -6,7 +6,7 @@ Built on the bones of Dark Ages, rebuilt to run on our own client and our own se
 
 You will not find us on the official servers. Sweden Mayhem runs its own world, and you reach it through our client. Grab it below and you are one double-click away from Mileth.
 
-<a href="/darkages/play" class="button">Download and Play</a>
+<a href="/darkages/play" class="button">How to Play</a>
 
 ---
 

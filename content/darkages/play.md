@@ -10,7 +10,11 @@ The client is a single folder. No install and nothing to configure. It already k
 
 <a href="https://github.com/Sweden-Mayhem/darkages-client/releases/latest/download/SwedenMayhem-Client-Win.zip" class="button">Download for Windows</a>
 
-It is a large download, around 600 MB, because all of the game art ships inside it.
+---
+
+## On Linux or Mac?
+
+No problem. The client is built for Windows, but we make sure every build runs perfectly under [Wine](https://www.winehq.org/). We test it ourselves before each release. Grab the same download, run it through Wine, and you are in.
 
 ---
 
