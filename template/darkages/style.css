@@ -150,10 +150,13 @@ article table { width: 100%; border-collapse: collapse; margin: 1em 0; }
 article th, article td { border: 1px solid #c2b083; padding: .5em .7em; text-align: left; }
 article th { background: #d8c89e; font-family: 'Cinzel', serif; color: var(--green-deep); }
 
+/* News posts: centered title with a small centered date/time under it */
+.news-post h1 { text-align: center; }
 .post-date {
-	font-family: 'Cinzel', serif; font-size: .6em;
-	color: var(--ink-soft); letter-spacing: .06em;
-	margin-left: .6em; vertical-align: middle;
+	display: block; text-align: center;
+	font-family: 'Cinzel', serif; font-size: .7rem; font-weight: normal;
+	color: var(--ink-soft); letter-spacing: .08em;
+	margin: -.15em 0 .9em;
 }
 
 /* ---- The seal button ---- */
