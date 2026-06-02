@@ -22,7 +22,7 @@ Our yardstick is simple. A thing is "working" only when it behaves the way you r
 
 - The tutorial. It gets you into the world, and it is finally a safe place to learn to fight: the training dummies stand still to be practiced on, the floppies hop about the field the way they always did, and none of them turn around and beat up a brand new character anymore. When you finish you now wake up inside the Mileth Inn, the way you should. Still to come are the proper tutorial building, the teachers (Raghnall, Bartley, Myles, Gerard), the Tutorial Book, and the first floppy quest.
 - Monster stats and behavior, being tuned to feel like the old days rather than guesses.
-- Mileth itself. The shops work and the inn now has its innkeeper, Riona, doing her real job. Still to come are the townsfolk with their own lines and quests, and Artur's long road.
+- Mileth itself. The shops work and the inn now has its innkeeper, Riona, doing her real job. Every door, shop entrance and the stairs down into the crypt have been checked against the old map and land exactly where they should, and the village message board is now up where it always stood, so you can read and leave postings again. Still to come are the townsfolk with their own lines and quests, Artur's long road, and the Temple of Choosing in the corner of town (for now you still dedicate your path at the church).
 
 ---
 
@@ -31,7 +31,7 @@ Our yardstick is simple. A thing is "working" only when it behaves the way you r
 - Most quests, from the first one in Mileth to the long chains later on
 - The towns beyond Mileth, and the dungeons past the crypt
 - Crafting, mining, guilds, and reputation
-- Mail, bulletin boards, and groups
+- Mail and groups (the Mileth board is up; the rest of the boards around the world are still to come)
 - Endgame zones and seasonal events
 
 ---
