@@ -25,7 +25,9 @@
 		</nav>
 	</header>
 	<article>
-<%~ currentPage.html %>
+<% const dm = currentPage.name.match(/^(\d{4})-(\d{2})-(\d{2})-(\d{2})(\d{2})(\d{2})$/); %>
+<% const pageDate = dm ? `${dm[1]}-${dm[2]}-${dm[3]} ${dm[4]}:${dm[5]}` : ''; %>
+<%~ pageDate ? currentPage.html.replace('</h1>', '<span class="post-date">'+pageDate+'</span></h1>') : currentPage.html %>
 		<p><a href="/darkages/news/">&laquo; Back to all news</a></p>
 	</article>
 	<footer><p><a href="/">Sweden Mayhem</a> &middot; &copy; 2026</p></footer>
