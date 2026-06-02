@@ -154,7 +154,7 @@ article th { background: #d8c89e; font-family: 'Cinzel', serif; color: var(--gre
 .news-post h1 { text-align: center; }
 .post-date {
 	display: block; text-align: center;
-	font-family: 'Cinzel', serif; font-size: .7rem; font-weight: normal;
+	font-family: 'Cinzel', serif; font-size: 1rem; font-weight: normal;
 	color: var(--ink-soft); letter-spacing: .08em;
 	margin: -.15em 0 .9em;
 }
