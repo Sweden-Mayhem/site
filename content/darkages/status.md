@@ -9,30 +9,38 @@ Our yardstick is simple. A thing is "working" only when it behaves the way you r
 ## Working now
 
 - Logging in, making a character, and walking the world
-- Mileth shops that buy and sell, and the bank for your gold
-- Learning skills and spells from the Mileth trainer
-- Choosing your path (Warrior, Rogue, Wizard, Priest, Monk) once you reach level five
 - Fighting monsters, taking loot, and gaining levels
-- Waking in the Mileth Inn when you leave the tutorial, where Riona the innkeeper greets you
-- Having Riona record your mundane birth, the town and the day you were born, onto your legend
+- Mileth shops that buy and sell, and the bank for your gold
+- Learning the handful of skills and spells we have working, from the Mileth trainer
+- Choosing your path (Warrior, Rogue, Wizard, Priest, Monk) once you reach level five
+- Waking in the Mileth Inn when you leave the tutorial, where Riona the innkeeper greets you and records your mundane birth onto your legend
+- Dying, and waking back up. Fall in battle and you take the chill of Sgrios, lose a little experience, and return to the Mileth temple at full health, the way you should, instead of being stuck as a ghost forever
+- The first real quest: Gerard's floppy hunt in the tutorial garden, with a reward and a legend mark for finishing it
+- Reading and posting on the town message boards that are up so far (the Mileth Village board and the tutorial grey slate)
 
 ---
 
 ## Being worked on
 
-- The tutorial. It gets you into the world, and it is finally a safe place to learn to fight: the training dummies stand still to be practiced on, the floppies hop about the field the way they always did, and none of them turn around and beat up a brand new character anymore. When you finish you now wake up inside the Mileth Inn, the way you should. Still to come are the proper tutorial building, the teachers (Raghnall, Bartley, Myles, Gerard), the Tutorial Book, and the first floppy quest.
-- Monster stats and behavior, being tuned to feel like the old days rather than guesses.
-- Mileth itself. The shops work and the inn now has its innkeeper, Riona, doing her real job. Every door, shop entrance and the stairs down into the crypt have been checked against the old map and land exactly where they should, and the village message board is now up where it always stood, so you can read and leave postings again. Still to come are the townsfolk with their own lines and quests, Artur's long road, and the Temple of Choosing in the corner of town (for now you still dedicate your path at the church).
+- **The tutorial.** It is now the real opening, not a stand-in. All five teachers are in place: Raghnall (combat), Bartley (knowledge), Myles (who grants the practice spell Srad Tut), Eadaoin (groups and the apple shop), and Keelin (signs and the grey slate). Gerard the gardener gives the first quest, the practice field is safe and tidy (the dummies stand by the combat teacher, the floppies gather in a findable grove, and the stray mantis that never belonged is gone), and the gate out to Mileth works again. Still to come: Flynn the basement trainer, the proper multi-room building, and the Tutorial Book reader.
+- **Mileth.** The shops, bank, trainer, inn, and class temple all work. Every door, shop entrance and the stairs down into the crypt have been checked against the old map and land exactly where they should, and the village board is back up where it always stood. Still to come: townsfolk with their own lines, the first town quests, and the Temple of Choosing in the corner of town (for now you dedicate your path at the church).
+- **The fuller death system.** The basics work, but a friend reviving you on the spot with a Red Potion, the visible ghost and skull, and a death pile of dropped items are still to come.
+- **Monster stats and behavior.** Tuned toward a retail feel rather than the inflated source numbers, but not yet matched monster by monster, and attacks never miss yet (no dodging or saving throws).
+- **Groups, mail, and the interface.** All handled and working on the server. What remains is the live two-player, in-client test that only a pair of real clients can do.
+- **Skills and spells.** Only a small set has working scripts so far. Retail has hundreds, and we are adding them as we go.
+- **Equipment.** It equips and the stats matter, but gear is not yet gated by level or class, so a fresh character can wear things they should not.
 
 ---
 
 ## Not yet
 
-- Most quests, from the first one in Mileth to the long chains later on
-- The towns beyond Mileth, and the dungeons past the crypt
-- Crafting, mining, guilds, and reputation
-- Mail and groups (the Mileth board is up; the rest of the boards around the world are still to come)
+- Most quests, from the rest of the Mileth chains to the long roads later on
+- The towns beyond Mileth, and the dungeons past the Mileth Crypt
+- Crafting, mining, guilds, reputation, and nation citizenship
+- The overworld field maps that link the towns together
+- The rest of the world's message boards
 - Endgame zones and seasonal events
+- Daily draws, chests, and the other old extras (which we intend to give to everyone, with no paywall)
 
 ---
 
