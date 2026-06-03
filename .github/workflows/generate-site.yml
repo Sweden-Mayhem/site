@@ -9,6 +9,13 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+# Serialize deploys: GitHub Pages allows only one deployment at a time, so two pushes close together
+# would otherwise race and the second fails with "in progress deployment". Queue them instead (a newer
+# push supersedes an older pending one, so the latest content always wins) and never run two at once.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
