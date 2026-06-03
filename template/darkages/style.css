@@ -157,9 +157,9 @@ article pre code {
 }
 
 article img {
-	max-width: 100%; border-radius: 3px;
-	border: 1px solid #6b5a32; box-shadow: 0 6px 18px #0006;
-	image-rendering: pixelated;        /* the game art is pixel art */
+	max-width: 100%;
+	image-rendering: pixelated;        /* game art is pixel art - keep it crisp, and no frame/box */
+	vertical-align: middle;
 }
 
 article table { width: 100%; border-collapse: collapse; margin: 1em 0; }
