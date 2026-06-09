@@ -31,7 +31,7 @@ The client connects to our server on its own. There is nothing to type in.
 
 ## Your first steps
 
-- **Fight the mice** in the inn. Spacebar swings your fists.
+- **Fight the mice** in the inn. Left-click a creature to move toward it and attack. Hold Space to swing in place if you prefer keyboard play.
 - **Walk into Mileth.** Talk to the shopkeepers and poke around the buildings.
 - **Find the crypt** in the northeast corner of town. The stairs go down, and so does your survival rate.
 - **Spend your gold.** Shops sell gear and potions, and banks hold what you cannot carry.
