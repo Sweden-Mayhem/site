@@ -8,7 +8,7 @@ Everything you need to get into Sweden Mayhem Dark Ages.
 
 The client is a single folder. No install and nothing to configure. It already knows where to find us.
 
-<a href="/darkages/releases/SwedenMayhem-Client-Win.zip" class="button">Download for Windows</a>
+<a href="https://darkages.swedenmayhem.se/download/SwedenMayhem-Client-Win.zip" class="button">Download for Windows</a>
 
 ---
 
