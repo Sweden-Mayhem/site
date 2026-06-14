@@ -1,71 +1,92 @@
 # The Client
 
-The old game, running in a client we rebuilt from the ground up.
-
-Dark Ages is a classic, but the original client shows its age. So we wrote our own. It speaks to our server, it keeps the chunky pixel world you remember, and it adds the quality-of-life that twenty-odd years of games taught us to expect. Here is what is in it.
+Dark Ages running in a client we wrote ourselves. It connects to our server and keeps the original low-resolution pixel world, while replacing the retail interface and adding the quality-of-life that the old client never had. This page lists what it currently does.
 
 ---
 
-## Fits your screen
+## Window and display
 
-Resize the window to anything you like. The world stays crisp and the interface stays sharp at every size, no fixed tiny box. Press Alt and Enter for borderless fullscreen whenever you want the whole monitor.
-
----
-
-## A real interface
-
-The cramped retail panels are gone. In their place is a clean dark UI you can actually arrange:
-
-- Open Inventory, Stats, Skills, Spells, Equipment, Legend, Group and Chat as their own windows
-- Drag them anywhere, resize them, and pin the ones you want to keep open
-- Skill, spell and inventory hotbars along the edges of the screen
-- Health and mana shown as a pair of glass orbs that drain as you fight
+The window resizes to any size and the world fills it instead of sitting in a small fixed box. The pixel world is rendered low-res and scaled up cleanly, while the interface is drawn at the window's real resolution so text and frames stay sharp at any size. Alt+Enter toggles borderless fullscreen.
 
 ---
 
-## Controls your way
+## Interface
 
-Every key is yours to change. The defaults are modern out of the box: WASD or the arrows to move, letter keys for your panels, and the number row for your hotbar.
+The retail panels are replaced with a dark windowed UI.
 
-- Left-click to do the obvious thing: pick up loot, talk to a shopkeeper, swing at a monster
-- Right-click to walk, with smooth pathfinding around corners
-- Hold to keep attacking, and movement that starts the instant you press a key
-- Prefer the classic feel? Switch it back in the options. Nothing is forced on you.
-
----
-
-## Maps worth opening
-
-The town map unrolls like a parchment scroll, hand-inked over the paper, with your position marked and every warp a click away. The wider travel map lets you pick a destination and go.
+- Inventory, Stats, Skills, Spells, Equipment, Legend, Group and Chat each open as their own window. Windows can be dragged, resized and pinned open.
+- Skill, spell and inventory hotbars sit along the edges of the screen.
+- Health and mana are shown as two orbs that empty as the values drop, with the exact numbers shown on hover.
+- Hovering an item, skill, spell or stat shows a tooltip, including durability, weight and learn requirements.
 
 ---
 
-## A world that feels alive
+## Controls
 
-Step outside at the right hour and the towns slip into evening. Lanterns and lit windows glow against the dark, and a soft warmth settles over everything as night comes in.
+Keys are rebindable in Options. The defaults are set up for modern play: WASD or the arrow keys move, letter keys open panels, and the number row uses the hotbar.
 
-- Day and night roll across the world over real time
-- Enemies, signs and loot show faintly through walls so nothing hides on you
-- The camera drifts to whoever is talking when a conversation starts
-- Other players and monsters glide between tiles instead of snapping
-
----
-
-## Sound and feel
-
-Footsteps on the road, a cue when gold or an item lands, music in the lobby, and a small jolt of the screen when something hits you. The little things that make a place feel real.
+- Left-click performs the obvious action on whatever you click, such as picking up an item, talking to an NPC or attacking an enemy.
+- Right-click moves, with pathfinding that routes around corners and obstacles.
+- Holding a movement key keeps walking. Holding the attack key keeps attacking.
+- The classic turn-then-walk movement and click behaviour can be restored in Options if you prefer it.
 
 ---
 
-## The small stuff that adds up
+## Chat
 
-- Hover anything for a clean tooltip: items, skills, spells, even your stats
-- An emote picker, plus every emote back on a key if you want it
-- A chat window that scrolls back, remembers what you typed, takes å ä ö, and does copy and paste
-- Speech bubbles that pop up over heads
+The chat window uses tabs: All, Public, Whisper and System, plus Group and Guild when you are in one, and any channels you join.
+
+- Enter types to whichever tab you are on. Tab and Shift+Tab cycle between tabs while typing.
+- Typing /say, /yell, /shout, /whisper, /guild or /group switches where the next message goes. Lines that start with / are sent as commands.
+- Click a player's name in chat to start a whisper to them.
+- Join a channel with the + button on the tab strip. Right-click a tab to mute its highlight, set a channel colour, or leave it.
+- Up and Down recall what you typed before. The window keeps scrollback, supports the å ä ö characters, and does copy and paste.
+- Speech bubbles appear over players' heads, and a soft dark backing keeps the text readable once the window has faded out.
 
 ---
 
-We are still building, and the client gets better most weeks. If something looks off, tell us, and grab the latest below.
+## NPC dialogs
+
+Dialog windows are centred and scaled to the screen, with the text drawn sharp on top of the frame. When a conversation starts, the camera moves to the speaker and lights them while the rest of the view dims. Long dialog text scrolls, and the navigation buttons only appear when they apply.
+
+---
+
+## Shops
+
+The merchant window has category tabs and pages. Items show their icon, price, weight and description on hover, and a sell screen lists what a merchant will buy.
+
+---
+
+## Maps
+
+The town map opens as a parchment scroll that unrolls, with the level hand-inked over the paper, walls drawn as rough ink lines, your position marked, and warps you can click to travel through. A wider travel map lets you pick a destination from a list.
+
+---
+
+## Light and time
+
+Towns and outdoor maps move through day and night over real time. At night, lamps and lit tiles cast light and shadow, and the dark closes in around the lit areas. Enemies, NPCs, signs and loot show faintly through walls so they are not lost behind foreground objects.
+
+---
+
+## Movement and feel
+
+Characters slide between tiles rather than snapping. Taking damage shakes the camera and flashes a red edge, and the world drains to grey while you are dead. Footsteps, gold and item cues, hit sounds and lobby music are in, with a slight pitch variation so repeated sounds are not identical.
+
+---
+
+## Connection
+
+If the server restarts or the connection drops, the client freezes the view and reconnects with your session in the background, putting you back in the game without a manual relog.
+
+---
+
+## Options
+
+Most of the above is adjustable: interface and hotbar scale, sound and music volume, tooltip size, delay and opacity, chat fade timers and font size, the day/night and behind-wall effects, the camera effects, and the control scheme.
+
+---
+
+The client is still in active development and changes regularly. If something looks wrong, let us know, and download the latest below.
 
 <a href="https://darkages.swedenmayhem.se/download/SwedenMayhem-Client-Win.zip" class="button">Download for Windows</a>
