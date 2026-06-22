@@ -6,7 +6,7 @@ A gaming community. Three servers. Built to last.
 ## Dark Ages Server
 Our own rebuild of the classic Dark Ages, running on a custom client and server. Towns, dungeons, shops, and monsters, hand-imported and stitched back together. Early days, plenty of mayhem.
 
-<a href="/darkages" class="button">Enter Dark Ages</a>
+<a href="https://darkages.swedenmayhem.se" class="button">Enter Dark Ages</a>
 
 ---
 
